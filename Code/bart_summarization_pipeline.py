@@ -8,9 +8,17 @@ from nltk.tokenize import WhitespaceTokenizer
 import spacy
 import torch
 import os
+from deprecated import deprecated
 
 
+@deprecated(reason="This class is no longer used")
 class Triplets:
+    # How to use it:
+    # triplets = Triplets('./../Data/embedRelations/', input_file, grouped_aliases)
+    # triplets.summarize()
+    # triplets.triplet_generate()
+    # triplets.extract_triplets()
+
     def __init__(self, report_folder, book_filename, aliases):
         self.nlp = pipeline('summarization')
         torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -41,36 +49,38 @@ class Triplets:
 
             for item in doc:
                 if len(item) > 1:
-                    if item[3] == 'False':
-                        #sent contains the original sentence while sent1 contains dealiased sentence
-                        sent1 = item[-1]
-                        sent = item[-1]
-                        m1 = re.findall('\w+\d+', sent)
-                        for x in m1:
-                            p1 = sent.split(m1[0])[-1]
-                            p2 = p1.split(m1[1])[0]
-                            if len(p2) > 3:
-                                if x in self.aliases.keys():
-                                    sent = sent.replace(x, self.aliases[x][0])
-                            else:
-                                sent = ''
-                            if len(p2) > 3:
-                                sent1 = sent1
-                            else:
-                                sent1 = ''
-                        if len(sent) > 0:
-                            if item[1] not in self.cluster_sentences_actual.keys():
-                                # sent=item[-1].replace('\w\d*>))
-                                self.cluster_sentences_actual[item[1]] = [sent]
-                            else:
-                                self.cluster_sentences_actual[item[1]].append(sent)
-                        if len(sent1) > 0:
-                            if item[1] not in self.cluster_sentences.keys():
-                                # sent=item[-1].replace('\w\d*>))
-                                self.cluster_sentences[item[1]] = [sent1]
-                            else:
-                                self.cluster_sentences[item[1]].append(sent1)
-        #summarize_pipeline_act contains representative (original) sentences for each cluster
+                    # sent contains the original sentence while sent1 contains dealiased sentence
+                    sent1 = item[-1]
+                    sent = item[-1]
+                    m1 = re.findall('\w+\d+', sent)
+                    for x in m1:
+                        p1 = sent.split(m1[0])[-1]
+                        # list index out of range
+                        if len(m1) < 2:
+                            print('Error')
+                        p2 = p1.split(m1[1])[0]
+                        if len(p2) > 3:
+                            if x in self.aliases.keys():
+                                sent = sent.replace(x, self.aliases[x][0])
+                        else:
+                            sent = ''
+                        if len(p2) > 3:
+                            sent1 = sent1
+                        else:
+                            sent1 = ''
+                    if len(sent) > 0:
+                        if item[1] not in self.cluster_sentences_actual.keys():
+                            # sent=item[-1].replace('\w\d*>))
+                            self.cluster_sentences_actual[item[1]] = [sent]
+                        else:
+                            self.cluster_sentences_actual[item[1]].append(sent)
+                    if len(sent1) > 0:
+                        if item[1] not in self.cluster_sentences.keys():
+                            # sent=item[-1].replace('\w\d*>))
+                            self.cluster_sentences[item[1]] = [sent1]
+                        else:
+                            self.cluster_sentences[item[1]].append(sent1)
+        # summarize_pipeline_act contains representative (original) sentences for each cluster
         self.summarize_pipeline_act = {}
         for items in self.cluster_sentences_actual.keys():
             text = self.cluster_sentences_actual[items]
@@ -78,7 +88,7 @@ class Triplets:
             result = self.nlp(text, min_length=5, max_length=100)
             self.summarize_pipeline_act[items] = result
 
-        #summarize_pipeline_act contains representative (dealiased) sentences for each cluster
+        # summarize_pipeline_act contains representative (dealiased) sentences for each cluster
         self.summarize_pipeline = {}
         for items in self.cluster_sentences.keys():
             text = self.cluster_sentences[items]
@@ -119,10 +129,10 @@ class Triplets:
 
         for phr in self.phrases.keys():
             for item in self.phrases[phr]:
-                #split sentence in words
+                # split sentence in words
                 toks = WhitespaceTokenizer().tokenize(item)
                 t = nltk.pos_tag(toks)
-                #takes only verbs,...
+                # takes only verbs,...
                 w = [x[0] for x in t if x[1] in ['VBN', 'VBD', 'VBG', 'VB', 'VBS']]
                 if phr not in self.tags.keys():
                     self.tags[phr] = w

@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import argparse
 from novel import Novel
-import sys
 import os
-import pickle
-
+import pandas as pd
 
 # Given a text this script look for names clusters (Ron, Ronald, Ronald Winsley,..) and dealias the original text,
 # replacing each name with the corresponding cluster tag (#CHARACTER0, #CHARACTER1,...).
@@ -30,7 +27,8 @@ class Dealias:
         for book in os.listdir(book_folder):
             print('Reading:', book)
             split_name = book.split('.')
-            if split_name[1] == 'txt':
+            folder_name = book_folder.split('/')[-2]
+            if split_name[1] == 'txt' and split_name[0] != folder_name:
                 file = open(book_folder + book, 'r', encoding='utf8')
                 text += file.read()
                 file.close()
@@ -50,6 +48,7 @@ class Dealias:
         novel = Novel(book_folder + self.input_file)
         novel.read()
         novel.parse_persons()
+        novel.find_persons_title()
         novel.store(filename=result_book_folder + self.all_names, data=novel.persons)
         # if you do not remove single occurrences, eps behaviour will be unstable
         occurrence_limit = 2
@@ -57,27 +56,39 @@ class Dealias:
         novel.store(filename=result_book_folder + filename + "_names_more_than_" + str(occurrence_limit) + ".csv",
                     data=novel.persons)
         novel.cluster_aliases()
+        novel.associate_simple_single_names()
         novel.associate_single_names()
         novel.store(filename=result_book_folder + self.clusters, data=novel.cluster_repetitions)
+        novel.create_cluster_repetitions_df()
+        novel.cluster_repetitions_df.to_pickle(result_book_folder + filename + '.pkl')
         novel.dealiases()
+        novel.store(filename=result_book_folder + filename + "_dealiased.txt", data=novel.dealiased_text, type='txt')
+        #Do the coreference after the dealias, because sometimes the coreference write a name just after a separation
+        # and this lead to some not desired wrong situations in which name are together (e.g. "Potter,Hermione")
+        novel.coreference()
         novel.store(filename=result_book_folder + self.output_file, data=novel.dealiased_text, type='txt')
         self.novel = novel
+        return novel.cluster_repetitions_df
 
     def read_data(self):
-        split_name = self.input_file.split('.')
-        if len(split_name) == 1:
-            # Read more file in a folder
-            book_folder = "./../Books/" + split_name[0] + "/"
-            out_folder = "./../Data/clust&Dealias/"
-            if not os.path.exists("./../Data/clust&Dealias/"):
-                os.makedirs(os.path.dirname("./../Data/clust&Dealias/"))
-            method = self.read_more_texts
+        book = self.input_file.split('.')[0]
+        if os.path.isfile('./../Data/clust&Dealias/' + book + '/' + book + '.pkl'):
+            return pd.read_pickle('./../Data/clust&Dealias/' + book + '/' + book + '.pkl')
         else:
-            book_folder = "./../Books/"
-            out_folder = "./../Data/clust&Dealias/"
-            method = self.analyze_text
+            split_name = self.input_file.split('.')
+            if len(split_name) == 1:
+                # Read more file in a folder
+                book_folder = "./../Books/" + split_name[0] + "/"
+                out_folder = "./../Data/clust&Dealias/"
+                if not os.path.exists("./../Data/clust&Dealias/"):
+                    os.makedirs(os.path.dirname("./../Data/clust&Dealias/"))
+                method = self.read_more_texts
+            else:
+                book_folder = "./../Books/"
+                out_folder = "./../Data/clust&Dealias/"
+                method = self.analyze_text
 
-        if not os.path.exists(out_folder):
-            os.makedirs(os.path.dirname(out_folder))
+            if not os.path.exists(out_folder):
+                os.makedirs(os.path.dirname(out_folder))
 
-        method(book_folder, out_folder)
+            return method(book_folder, out_folder)

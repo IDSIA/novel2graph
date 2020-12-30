@@ -10,9 +10,8 @@ import logging
 import copy
 import argparse
 from sklearn.manifold import TSNE
-import matplotlib.pyplot as plt
 import seaborn as sns
-
+import pandas as pd
 sns.set()
 
 
@@ -199,88 +198,8 @@ class TwecModel(object):
                                                                                                                  tfn,
                                                                                                                  mplp,
                                                                                                                  nll))
-        print
         print("Mean posterior log probability: {:.4f}".format(sum(mplps) / (len(mplps))))
         print("Mean normalized log likelihood: {:.4f}".format(sum(nlls) / (len(nlls))))
-
-
-def plot_traj(data, number_of_character=5):
-    char_names = data['a']
-    n_chars = number_of_character
-    vectors = data['b'][:]
-    remove_None = []
-
-    for character in vectors:
-        new_character = []
-        for points in character:
-            if points is not None:
-                new_character.append(points)
-        remove_None.append(new_character)
-
-    vectors = remove_None
-    arr = []
-    for character in vectors:
-        for points in character:
-            arr.append(points)
-
-    np_arr = np.array(arr)
-    # pca = PCA(n_components=2)
-    # pca.fit(np_arr)
-    # principalComponents = pca.fit_transform(np_arr)
-
-    tsne = TSNE(n_components=2, verbose=1, perplexity=40, n_iter=300)
-    principalComponents = tsne.fit_transform(np_arr)
-
-    xx = {}
-    yy = {}
-    for character in range(n_chars):
-        xx[character] = []
-        yy[character] = []
-
-    k = 0
-    for i, character in enumerate(vectors):
-        n_points = len(character)
-        for n_points in range(n_points):
-            a = principalComponents[k]
-            xx[i].append(a[0])
-            yy[i].append(a[1])
-            k += 1
-
-    for k in range(n_chars):
-        plt.plot(xx[k], yy[k], '-o', label=char_names[k], markevery=len(xx[k]))
-        # plt.arrow(xx[k][-1], yy[k][-1], 5, 5, head_width=13, length_includes_head=True, shape='full')
-        # print(char_names[k], ': ', xx[k], ' ', yy[k])
-
-    plt.legend(loc=2, ncol=2)
-    plt.show()
-
-
-def plot_dist(models_path, aliases, names_to_plot):
-    model_file = glob.glob(models_path + '/*.model')
-
-    character_distances = [None] * len(aliases)
-    for i, distance in enumerate(character_distances):
-        character_distances[i] = []
-
-    for n_file, fn in enumerate(model_file):
-        word2vec = Word2Vec.load(fn)
-        for i, alias in enumerate(aliases):
-            character_distance = character_distances[i]
-            if alias in word2vec.wv.vocab:
-                # similarity compute the cosine distance!
-                sim = 1 - word2vec.similarity(aliases[0], alias)
-            else:
-                sim = None
-            character_distance.append(sim)
-
-    plt.figure(figsize=(10, 10))
-    years = list(range(1, len(character_distances[0]) + 1))
-    for i, k in enumerate(character_distances):
-        plt.plot(years, k, markersize=7, label=names_to_plot[i])
-    leg = plt.legend(loc='best', ncol=1, shadow=True, fancybox=True)
-    leg.get_frame().set_alpha(0.25)
-
-    plt.show()
 
 
 def _get_vector_hp(model, character):
@@ -334,7 +253,7 @@ def split_chapter(text, slices_folder, chapter_per_slice=6):
 def group_aliases(aliases):
     character_ids = {}
     for i, alias in enumerate(aliases):
-        lower_character_alias = [x.lower() for x in alias]
+        lower_character_alias = [x for x in alias]
         char_id = 'CCHARACTER' + str(i)
         character_ids[char_id] = lower_character_alias
     return character_ids
@@ -347,17 +266,16 @@ def ns_type(x):
     return x
 
 
-def static_dynamic_embed(book, clusters, dynamic, chapters):
+def static_dynamic_embed(book, dealias_df, dynamic, chapters):
     book = book.split('.')
     if len(book) == 1:
         book = book
     else:
         book = book[0]
 
-    aliases, occurrences = read_alias_occurrences(clusters)
     dealiased_book = './../Data/clust&Dealias/' + book + '/' + book + '_out.txt'
     model = TwecModel(book)
-    aliases_group = group_aliases(aliases)
+    aliases_group = group_aliases(list(dealias_df['Names']))
     split_chapter(dealiased_book, model.slices_folder, chapter_per_slice=chapters)
     alias = list(aliases_group.keys())
     chars_label = [x[-1] for x in list(aliases_group.values())]
@@ -367,17 +285,101 @@ def static_dynamic_embed(book, clusters, dynamic, chapters):
 
     if dynamic:
         model_path = model.dynamic_folder
-        output_name = model.data + '/' + model.books_title + '_dynamic.npz'
+        output_name = model.data + '/' + model.books_title + '_dynamic'
     else:
         model_path = model.static_folder
-        output_name = model.data + '/' + model.books_title + '_static.npz'
+        output_name = model.data + '/' + model.books_title + '_static'
 
     model.get_embeddings(alias, model_path)
-    np.savez(output_name, a=chars_label, b=model.all_char_vec)
-    return output_name, model_path, alias
+    traj_x_s, traj_y_s = prepare_traj(model.all_char_vec)
+    distances = prepare_dist(model_path, alias)
+    distances.to_pickle(output_name + "_distances.pkl")
+    df = pd.DataFrame(
+        data=[[alias[i], val, model.all_char_vec[i], traj_x_s[i], traj_y_s[i]] for i, val in
+              enumerate(chars_label)],
+        columns=['Alias', 'Name', 'Embedding', 'Trajectories_x', 'Trajectories_y'])
+    df.to_pickle(output_name + ".pkl")
+    return output_name, model_path
+
+
+def prepare_traj(embeddings):
+    none_values = []
+    all_values = []
+    for char in embeddings:
+        for point in char:
+            if point is not None:
+                none_values.append(False)
+                all_values.append(point)
+            else:
+                none_values.append(True)
+
+    tsne = TSNE(n_components=2, verbose=1, perplexity=40, n_iter=300)
+    principalComponents = tsne.fit_transform(all_values)
+    x_s = []
+    y_s = []
+    j = 0
+    coordinates_x = []
+    coordinates_y = []
+    chars_number = len(embeddings)
+    points_per_char = len(embeddings[0])
+    for i, val in enumerate(none_values):
+        if val:
+            x_s.append(None)
+            y_s.append(None)
+        else:
+            value = principalComponents[j]
+            x_s.append(value[0])
+            y_s.append(value[1])
+            j += 1
+
+        if (i + 1) % points_per_char == 0:
+            coordinates_x.append(x_s)
+            coordinates_y.append(y_s)
+            x_s = []
+            y_s = []
+    return coordinates_x, coordinates_y
+
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+    '''
+    alist.sort(key=natural_keys) sorts in human order
+    http://nedbatchelder.com/blog/200712/human_sorting.html
+    (See Toothy's implementation in the comments)
+    '''
+    return [ atoi(c) for c in re.split(r'(\d+)', text) ]
+
+def prepare_dist(models_path, aliases):
+    model_file = glob.glob(models_path + '/*.model')
+    model_file.sort(key=natural_keys)
+    history = []
+    models_number = []
+    for n_file, fn in enumerate(model_file):
+        models_number.append(n_file)
+        new_col = []
+        word2vec = Word2Vec.load(fn)
+        for i, alias_a in enumerate(aliases):
+            new_cell = []
+            for j, alias_b in enumerate(aliases):
+                if alias_a in word2vec.wv.vocab and alias_b in word2vec.wv.vocab:
+                    # similarity compute the cosine distance!
+                    sim = 1 - word2vec.similarity(alias_a, alias_b)
+                else:
+                    sim = None
+                new_cell.append(sim)
+            new_col.append(new_cell)
+        history.append(new_col)
+
+    cols_name = ['Split' + str(number) for number in models_number]
+    df = pd.DataFrame(index=aliases)
+    for i, split in enumerate(history):
+        df[cols_name[i]] = split
+    return df
 
 
 def read_alias_occurrences(data):
+    # Deprecated
     aliases = []
     occurrences = []
     for aliases_occurrences in data.values():

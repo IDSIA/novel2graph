@@ -1,12 +1,27 @@
 # NOVEL2GRAPH
-The algorithm receives a book and it discovers main characters, main relations between characters and more powerful information. In addition it is able to plot the evolution of a character as also the distances between different characters (for more infos see: https://arxiv.org/pdf/2003.08811.pdf).
+## A workflow to extract Knowledge Graph from literary text
+### By [Mellace Simone](https://github.com/mellacsi), [Kanjirangat Vani](https://github.com/vanikanjirangat) and [Antonucci Alessandro](https://github.com/alessandroantonucci)
+This pipeline is a semi-supervised algorithm, which receives a book as input and it discovers: the main characters, the main relations between characters, a Knowledge Graph including these information and more interesting material.
+As final result, you will obtain an interface with which you can monitor and explore your results.
+
+>![Home Page Preview](Data/imgs/Home.PNG)
+
+>![Knowledge Graph Preview](Data/imgs/KG.png)
+
+>![Embedding Preview](Data/imgs/Embedding.png)
+
+This work is based on [Temporal Embeddings and Transformer Models for Narrative Text Understanding](https://arxiv.org/abs/2003.08811) and [Relation Clustering in Narrative Knowledge Graphs](https://arxiv.org/abs/2011.13647).
+
 
 ## Quickstart
 - Clone the project
 - Download the latest version of https://nlp.stanford.edu/software/CRF-NER.shtml#Download
-- Unzip the downloaded folder and put the folder `stanford-ner-20XX-XX-XX` in `./libraries`
+- Unzip the downloaded folder `stanford-ner-20XX-XX-XX` and put it in `./libraries`
+- The same as before following https://stanfordnlp.github.io/CoreNLP#Quickstart
 - Install requirements.txt
-- start test_embedding.py or test_relations_clustering.py providing a book in txt format
+- Start test_static_dynamic_embedding.py and test_relations_clustering.py providing a book in txt format
+- [Optional] Run test_relations_classifier.py or test_Bert_family_cls.py to discover more information about the book
+- Run GUI/test_dash.py to start the interface on your machine
 
 
 ### Start
@@ -16,24 +31,34 @@ $ python Code/test_embedding.py myBook.txt
 ```
 
 ### Output 
-Results are generated in *Data* folder, in particular this folder could contain:
-- *clust&Dealias*: for each book contains the following files
-    - *bookName_occurrences.csv* contains a list of character name and its occurrences
-    - *bookName_more_than_1.csv* as before but only with names occurring more than once
-    - *bookName_clusters.csv* contains all clusters, each row shows a cluster id, contained names and occurrences list
-    - *bookName_out.txt* contains the story in which names are replaced with an identifier ("CHARACTERX")
+Results are generated in *Data* folder, in particular this folder could contain these others sub-folders:
+- *clust&Dealias/bookName/*: which for each book you run the algorithm with, contains the following files:
+    - *bookName_occurrences.csv* contains a list of character names and occurrences;
+    - *bookName_more_than_1.csv* as before but only with names occurring more than once;
+    - *bookName_clusters.csv* contains all clusters (each row shows a cluster id, the contained names and the occurrences);
+    - *bookName_out.txt* contains the coreferenced story in which originals names are replaced with an identifier ("CHARACTERX")
+    - *\*.pkl* are cached data.
 - *embedding*:
-    - *embeddings* contains the embedding of the book
-    - *models/bookName/chapters* contains dynamic and static trained models
-    - *slices/bookName/chapters* contains slices which are use to train each model
-- *embedRelations/book*:
-    - *bookName* contains the graphiz version of the pdf
-    - *bookName.pdf* contains main characters and main relations between them
-    - *bookName_report.txt* contains all relations retrieved using embedding and kmean, a row contains the sentence, involved characters, the relation identifier and a flag showing if the action is performed by both actors
-- *triplets*:
-    - *summary_sentences.tsv* contains foreach cluster a representative sentence 
-    - *summary_sentences_act.tsv* as before but with a cleaned version of the sentence
-    - *summary_triplets.tsv* shows the identified relation for each cluster
+    - *embeddings* cache data containing the embedding of the book;
+    - *models/bookName/chapters* contains dynamic and static models trained on the slices;
+    - *slices/bookName/chapters* contains slices (text divided in chapters) which are use to train each model.
+- *embedRelations/book/*:
+    - *bookName_report_X.txt* contains all relations involving X characters;
+    - *bookName_embeddings_X.pkl* contains embedded relations data;
+    - *bookName_zero_char_sentences.pkl* contains sentences with 0 characters;
+    - *bookName_few_char_sentences.pkl* contains sentences with fewer characters than desired (you can specify the desired amount in the code);
+    - *bookName_right_char_sentences.pkl* contains sentences with the right number of characters than desired;
+    - *bookName_more_char_sentences.pkl* contains sentences with more characters than desired.
+- *family_relations*:
+    - some material for relations extracted with *test_Bert_family_cls.py*
+- *scraping/bookName*:
+    - *amazon.csv*: a book's reviews from amazon books;
+    - *goodreads.csv*: a book's reviews from Goodreads;
+    - *librarything.csv*: a book's reviews from LibraryThing;
+    - *wiki.csv*: a book's reviews from Wikipedia.
+### Others
+- Remember to use the Shift-Reduce Parser for Stanford CoreNLP from https://nlp.stanford.edu/software/srparser.html
+- Some Stanford's extentions require Java x64 bit 
 ### Bugs fix
 - To install Graphviz: ```$ sudo apt install python-pydot python-pydot-ng graphviz```
 - To install mysql-config: ```$ sudo apt-get install libmysqlclient-dev```
