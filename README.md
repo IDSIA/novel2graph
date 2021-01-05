@@ -10,7 +10,7 @@ As final result, you will obtain an interface with which you can monitor and exp
 
 >![Embedding Preview](Data/imgs/Embedding.png)
 
-This work is based on [Temporal Embeddings and Transformer Models for Narrative Text Understanding](https://arxiv.org/abs/2003.08811) and [Relation Clustering in Narrative Knowledge Graphs](https://arxiv.org/abs/2011.13647).
+This work is based on [Temporal Embeddings and Transformer Models for Narrative Text Understanding](https://arxiv.org/abs/2003.08811), [Relation Clustering in Narrative Knowledge Graphs](https://arxiv.org/abs/2011.13647) and [NOVEL2GRAPH: Visual Summariesof Narrative Text Enhanced by Machine Learning](http://ceur-ws.org/Vol-2342/paper4.pdf).
 
 
 ## Quickstart
