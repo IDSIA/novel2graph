@@ -7,7 +7,6 @@ from embedding import static_dynamic_embed
 def main(input_file, outputfile, all_names, clusters):
     dealias = Dealias(input_file, outputfile, all_names, clusters)
     dealias_df = dealias.read_data()
-    # best result with 20 chapters for LW and 12 for HP
     df_path, model_path = static_dynamic_embed(input_file, dealias_df, dynamic=True,
                                                chapters=12)
     #Just add .pkl or _distances.pkl to df_path to find the files

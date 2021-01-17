@@ -4,6 +4,7 @@ from dealias import Dealias
 from relations_extractor import extract_relations, embed_and_cluster
 import pandas as pd
 
+
 def main(input_file, outputfile, all_names, clusters):
     dealias = Dealias(input_file, outputfile, all_names, clusters)
     dealias_df = dealias.read_data()
@@ -12,9 +13,11 @@ def main(input_file, outputfile, all_names, clusters):
     embed_and_cluster(input_file, grouped_aliases, './../Data/embedRelations/hp1/hp1_few_char_sentences.pkl', k)
     embedding_1char_df = pd.read_pickle('.\\..\\Data\\embedRelations\\hp1\\hp1_embeddings1.pkl')
     relations_1char_df = pd.read_pickle('.\\..\\Data\\embedRelations\\hp1\\hp1_relations1.pkl')
+
     embed_and_cluster(input_file, grouped_aliases, './../Data/embedRelations/hp1/hp1_right_char_sentences.pkl', k)
     embedding_2chars_df = pd.read_pickle('.\\..\\Data\\embedRelations\\hp1\\hp1_embeddings2.pkl')
     relations_2chars_df = pd.read_pickle('.\\..\\Data\\embedRelations\\hp1\\hp1_relations2.pkl')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='This file receives a book (input) '
