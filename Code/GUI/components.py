@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 import numpy as np
 
-os.environ["PATH"] += os.pathsep + 'C:\\Program Files (x86)\\Graphviz2.38\\bin'
+#os.environ["PATH"] += os.pathsep + 'C:\\Program Files (x86)\\Graphviz2.38\\bin'
 
 
 def color_for_val(val, vmin, vmax, color='GnBu'):
@@ -74,7 +74,6 @@ def create_graph(characters, relations):
                    fontname="Arial", fontsize=35,
                    occurrences=character.loc['Occurrences'],
                    color=color_for_val(character.loc['Occurrences'], 0, max_occurrences))
-        # width=sum(characters[characters['Alias'] == alias])
 
     representatives_relations = []
     for alias_a in aliases:
@@ -87,7 +86,6 @@ def create_graph(characters, relations):
 
     max_occurrences = np.max(representatives_relations['Occurrences'])
     for index, row in representatives_relations.iterrows():
-        # , color=color_for_val(value, 0, max_edge)
         g.add_edge(row['Character1'], row['Character2'], color=color_for_val(row['Occurrences'], 0, max_occurrences))
 
     return g

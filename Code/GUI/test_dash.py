@@ -3,12 +3,14 @@
 
 import dash
 from dash.dependencies import Input, Output
-import page_1
-import page_2
+from page_1 import Page_1
+from page_2 import Page_2
 import logging
 import dash_html_components as html
 import dash_core_components as dcc
 import plotly.graph_objs as go
+import argparse
+import sys
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -43,13 +45,7 @@ app.layout = html.Div([
     dcc.Location(id='url', refresh=False)])
 
 
-page_1_layout = page_1.layout_1
-characters = page_1.characters
-one_char_relations = page_1.one_char_relations
-two_chars_relations = page_1.two_chars_relations
-chars_distances = page_2.chars_distances
-chars_embedding = page_2.chars_embedding
-page_2_layout = page_2.layout_2
+
 
 
 @app.callback(Output('cytoscape-tapRelationData-output', 'children'),
@@ -163,4 +159,23 @@ def update_graph(char_id):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='This file receives a book (input) '
+                                                 'and display the results computed by Code/test_static_dynamic_embedding.py and Code/test_relations_clustering.py.')
+    parser.add_argument("input_filename", type=str, help="The input file name \'file.txt\' or folder name")
+    try:
+        filename = sys.argv[1].split('.')[0]
+    except:
+        print('Provide an input file! Or try \'-h\' option')
+        exit(-1)
+
+    page_one = Page_1(filename)
+    page_two = Page_2(filename)
+
+    page_1_layout = page_one.layout_1
+    characters = page_one.characters
+    one_char_relations = page_one.one_char_relations
+    two_chars_relations = page_one.two_chars_relations
+    chars_distances = page_two.chars_distances
+    chars_embedding = page_two.chars_embedding
+    page_2_layout = page_two.layout_2
     app.run_server(debug=True)
