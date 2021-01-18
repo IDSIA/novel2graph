@@ -25,9 +25,17 @@ This work is based on [Temporal Embeddings and Transformer Models for Narrative 
 
 
 ### Start
-Start the program simply by typing:
+First perform the static and dynamic embedding of your book by typing:
 ```shell
-$ python Code/test_embedding.py myBook.txt
+$ python Code/test_static_dynamic_embedding.py myBook.txt
+```
+Secondly generate the Knowledge Graph of your book by typing:
+```shell
+$ python Code/test_relations_clustering.py myBook.txt
+```
+Finally run the interface to analyze and interact with your results:
+```shell
+$ python Code/GUI/test_dash.py myBook.txt
 ```
 
 ### Output 
