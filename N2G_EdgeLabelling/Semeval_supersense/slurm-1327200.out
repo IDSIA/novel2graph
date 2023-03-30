@@ -1,0 +1,134 @@
+2022-02-25 13:21:55.318478: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+Supersense_semeval.py:26: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  time_start = time.clock()
+finding clusters based on supersense
+verbs {0: 'recommend', 1: 'love', 2: 'bring', 3: 'describe', 4: 'get', 5: 'upgrade', 6: 'get', 7: 'do', 8: 'do', 9: 'specialize', 10: 'know', 11: 'do', 12: 'help', 13: 'do', 14: 'pay', 15: 'taste', 16: 'have', 17: 'taste', 18: 'taste', 19: 'eat', 20: 'recommend', 21: 'eat', 22: 'offer', 23: 'send', 24: 'scent', 25: 'recommend', 26: 'call', 27: 'eat', 28: 'leave', 29: 'sit', 30: 'greet', 31: 'be', 32: 'refer', 33: 'own', 34: 'need', 35: 'have', 36: 'serve', 37: 'deliver', 38: 'think', 39: 'know', 40: 'base', 41: 'have', 42: 'recommend', 43: 'have', 44: 'combine', 45: 'fix', 46: 'check', 47: 'end', 48: 'have', 49: 'last', 50: 'know', 51: 'have', 52: 'go', 53: 'keep', 54: 'come', 55: 'be', 56: 'know', 57: 'take', 58: 'deliver', 59: 'know', 60: 'notice', 61: 'open', 62: 'stick', 63: 'live', 64: 'branch', 65: 'try', 66: 'know', 67: 'walk', 68: 'feel', 69: 'want', 70: 'try', 71: 'see', 72: 'find', 73: 'manage', 74: 'do', 75: 'want', 76: 'use', 77: 'make', 78: 'make', 79: 'try', 80: 'come', 81: 'judge', 82: 'look', 83: 'beat', 84: 'have', 85: 'remove', 86: 'allow', 87: 'taste', 88: 'own', 89: 'do', 90: 'have', 91: 'love', 92: 'stay', 93: 'smell', 94: 'go', 95: 'go', 96: 'know', 97: 'have', 98: 'want', 99: 'recommend', 100: 'fry', 101: 'like', 102: 'thank', 103: 'visit', 104: 'save', 105: 'get', 106: 'transform', 107: 'run', 108: 'complete', 109: 'clean', 110: 'recommend', 111: 'refer', 112: 'love', 113: 'be', 114: 'deliver', 115: 'seem', 116: 'like', 117: 'answer', 118: 'check', 119: 'imply', 120: 'assume', 121: 'make', 122: 'put', 123: 'make', 124: 'get', 125: 'have', 126: 'wait', 127: 'be', 128: 'pay', 129: 'have', 130: 'receive', 131: 'feel', 132: 'walk', 133: 'have', 134: 'name', 135: 'have', 136: 'be', 137: 'do', 138: 'think', 139: 'like', 140: 'have', 141: 'recommend', 142: 'have', 143: 'replace', 144: 'work', 145: 'help', 146: 'recommend', 147: 'go', 148: 'think', 149: 'feel', 150: 'get', 151: 'relax', 152: 'want', 153: 'like', 154: 'work', 155: 'give', 156: 'decide', 157: 'stop', 158: 'go', 159: 'seem', 160: 'enjoy', 161: 'do', 162: 'show', 163: 'stay', 164: 'stay', 165: 'do', 166: 'look', 167: 'see', 168: 'solve', 169: 'say', 170: 'do', 171: 'install', 172: 'get', 173: 'like', 174: 'move', 175: 'move', 176: 'know', 177: 'make', 178: 'have', 179: 'offer', 180: 'call', 181: 'leave', 182: 'feel', 183: 'enjoy', 184: 'use', 185: 'speed', 186: 'play', 187: 'go', 188: 'get', 189: 'work', 190: 'happen', 191: 'refer', 192: 'get', 193: 'have', 194: 'get', 195: 'do', 196: 'use', 197: 'fix', 198: 'push', 199: 'fix', 200: 'disappoint', 201: 'offer', 202: 'speak', 203: 'forget', 204: 'undergo', 205: 'make', 206: 'step', 207: 'provide', 208: 'have', 209: 'order', 210: 'ask', 211: 'want', 212: 'renovate', 213: 'seem', 214: 'do', 215: 'sort', 216: 'sort', 217: 'come', 218: 'help', 219: 'shoot', 220: 'go', 221: 'find', 222: 'represent', 223: 'wish', 224: 'make', 225: 'happen', 226: 'be', 227: 'die', 228: 'provide', 229: 'come', 230: 'make', 231: 'be', 232: 'blow', 233: 'treat', 234: 'expect', 235: 'extend', 236: 'go', 237: 'have', 238: 'ruin', 239: 'have', 240: 'call', 241: 'recommend', 242: 'go', 243: 'blow', 244: 'go', 245: 'need', 246: 'win', 247: 'rate', 248: 'meet', 249: 'recommend', 250: 'go', 251: 'help', 252: 'wish', 253: 'have', 254: 'set', 255: 'have', 256: 'work', 257: 'recommend', 258: 'shop', 259: 'open', 260: 'love', 261: 'operate', 262: 'listen', 263: 'take', 264: 'get', 265: 'utilize', 266: 'hesitate', 267: 'use', 268: 'refer', 269: 'remember', 270: 'ask', 271: 'suck', 272: 'get', 273: 'know', 274: 'train', 275: 'listen', 276: 'like', 277: 'achieve', 278: 'recommend', 279: 'feel', 280: 'be', 281: 'regard', 282: 'want', 283: 'know', 284: 'come', 285: 'schedule', 286: 'spray', 287: 'seem', 288: 'understand', 289: 'make', 290: 'spray', 291: 'take', 292: 'have', 293: 'help', 294: 'provide', 295: 'reduce', 296: 'add', 297: 'listen', 298: 'diagnose', 299: 'address', 300: 'explain', 301: 'suggest', 302: 'use', 303: 'get', 304: 'upgrade', 305: 'use', 306: 'have', 307: 'take', 308: 'love', 309: 'call', 310: 'clog', 311: 'schedule', 312: 'schedule', 313: 'work', 314: 'give', 315: 'recommend', 316: 'do', 317: 'love', 318: 'recommend', 319: 'response', 320: 'love', 321: 'talk', 322: 'drive', 323: 'close', 324: 'do', 325: 'stay', 326: 'be', 327: 'have', 328: 'wait', 329: 'recommend', 330: 'love', 331: 'have', 332: 'go', 333: 'get', 334: 'go', 335: 'love', 336: 'be', 337: 'know', 338: 'wait', 339: 'get', 340: 'count', 341: 'believe', 342: 'visit', 343: 'know', 344: 'start', 345: 'come', 346: 'watch', 347: 'give', 348: 'find', 349: 'need', 350: 'stay', 351: 'do', 352: 'ask', 353: 'do', 354: 'charge', 355: 'take', 356: 'trust', 357: 'ask', 358: 'come', 359: 'make', 360: 'fit', 361: 'go', 362: 'have', 363: 'have', 364: 'dig', 365: 'find', 366: 'hire', 367: 'unlock', 368: 'give', 369: 'say', 370: 'seem', 371: 'show', 372: 'get', 373: 'unlock', 374: 'take', 375: 'do', 376: 'recover', 377: 'delete', 378: 'love', 379: 'know', 380: 'get', 381: 'go', 382: 'waste', 383: 'have', 384: 'delete', 385: 'like', 386: 'end', 387: 'pay', 388: 'want', 389: 'fix', 390: 'fix', 391: 'call', 392: 'have', 393: 'fix', 394: 'have', 395: 'order', 396: 'schedule', 397: 'get', 398: 'lie', 399: 'come', 400: 'go', 401: 'love', 402: 'recommend', 403: 'suffer', 404: 'come', 405: 'need', 406: 'try', 407: 'stick', 408: 'want', 409: 'pull', 410: 'want', 411: 'do', 412: 'know', 413: 'know', 414: 'tell', 415: 'have', 416: 'need', 417: 'go', 418: 'want', 419: 'know', 420: 'do', 421: 'go', 422: 'think', 423: 'check', 424: 'list', 425: 'have', 426: 'drive', 427: 'go', 428: 'fry', 429: 'have', 430: 'taste', 431: 'try', 432: 'return', 433: 'refuse', 434: 'have', 435: 'leave', 436: 'fall', 437: 'go', 438: 'get', 439: 'do', 440: 'relax', 441: 'plan', 442: 'go', 443: 'use', 444: 'use', 445: 'take', 446: 'change', 447: 'try', 448: 'add', 449: 'need', 450: 'go', 451: 'give', 452: 'find', 453: 'have', 454: 'cook', 455: 'take', 456: 'go', 457: 'get', 458: 'hire', 459: 'help', 460: 'serve', 461: 'cook', 462: 'act', 463: 'rush', 464: 'be', 465: 'return', 466: 'charge', 467: 'have', 468: 'wait', 469: 'pick', 470: 'tow', 471: 'do', 472: 'use', 473: 'do', 474: 'recommend', 475: 'recommend', 476: 'go', 477: 'take', 478: 'have', 479: 'specialize', 480: 'stay', 481: 'make', 482: 'want', 483: 'hesitate', 484: 'visit', 485: 'forgive', 486: 'feel', 487: 'hope', 488: 'find', 489: 'eat', 490: 'get', 491: 'love', 492: 'have', 493: 'return', 494: 'travel', 495: 'call', 496: 'see', 497: 'tell', 498: 'have', 499: 'get', 500: 'be', 501: 'do', 502: 'remove', 503: 'remain', 504: 'have', 505: 'have', 506: 'induce', 507: 'recommend', 508: 'recommend', 509: 'playing', 510: 'offer', 511: 'look', 512: 'do', 513: 'work', 514: 'walk', 515: 'be', 516: 'find', 517: 'recommend', 518: 'expect', 519: 'undercook', 520: 'put', 521: 'make', 522: 'know', 523: 'eat', 524: 'run', 525: 'work', 526: 'take', 527: 'run', 528: 'recommend', 529: 'enjoy', 530: 'go', 531: 'give', 532: 'check', 533: 'think', 534: 'try', 535: 'turn', 536: 'use', 537: 'keep', 538: 'get', 539: 'recommend', 540: 'appreciate', 541: 'use', 542: 'cook', 543: 'go', 544: 'bother', 545: 'understand', 546: 'survive', 547: 'meet', 548: 'go'}
+no. of verbs detected 549
+supersense {0: 'verb.body', 1: 'verb.change', 2: 'verb.cognition', 3: 'verb.communication', 4: 'verb.competition', 5: 'verb.consumption', 6: 'verb.contact', 7: 'verb.creation', 8: 'verb.emotion', 9: 'verb.motion', 10: 'verb.perception', 11: 'verb.possession', 12: 'verb.social', 13: 'verb.stative', 14: 'verb.weather'}
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+STATISTICS--unique--ambi--absent 132 119 298
+We have the verb clusters related to each supersense id {0: [], 1: ['end', 'remove', 'fry', 'transform', 'replace', 'stop', 'renovate', 'die', 'reduce', 'delete', 'delete', 'end', 'fry', 'change', 'remove'], 2: ['get', 'upgrade', 'get', 'do', 'do', 'specialize', 'know', 'do', 'do', 'think', 'know', 'base', 'fix', 'check', 'know', 'know', 'take', 'know', 'try', 'know', 'feel', 'try', 'see', 'find', 'do', 'try', 'judge', 'do', 'know', 'get', 'answer', 'check', 'assume', 'get', 'feel', 'do', 'think', 'think', 'feel', 'get', 'decide', 'do', 'do', 'see', 'solve', 'do', 'get', 'know', 'feel', 'get', 'get', 'get', 'do', 'fix', 'fix', 'forget', 'provide', 'do', 'sort', 'sort', 'find', 'provide', 'rate', 'get', 'remember', 'get', 'know', 'feel', 'regard', 'know', 'schedule', 'understand', 'provide', 'diagnose', 'get', 'upgrade', 'schedule', 'schedule', 'do', 'do', 'get', 'know', 'get', 'believe', 'know', 'find', 'do', 'do', 'trust', 'find', 'get', 'do', 'know', 'get', 'fix', 'fix', 'fix', 'schedule', 'get', 'try', 'do', 'know', 'know', 'know', 'do', 'think', 'check', 'list', 'try', 'get', 'do', 'try', 'find', 'get', 'do', 'do', 'specialize', 'feel', 'hope', 'find', 'get', 'see', 'get', 'do', 'do', 'find', 'know', 'check', 'think', 'try', 'get', 'understand'], 3: ['recommend', 'recommend', 'send', 'recommend', 'call', 'greet', 'serve', 'recommend', 'recommend', 'thank', 'recommend', 'imply', 'recommend', 'recommend', 'say', 'call', 'speak', 'ask', 'shoot', 'call', 'recommend', 'recommend', 'recommend', 'ask', 'recommend', 'address', 'explain', 'suggest', 'call', 'recommend', 'recommend', 'talk', 'recommend', 'ask', 'ask', 'say', 'call', 'recommend', 'tell', 'serve', 'recommend', 'recommend', 'forgive', 'call', 'tell', 'recommend', 'recommend', 'recommend', 'recommend', 'recommend'], 4: ['beat', 'charge', 'charge'], 5: ['taste', 'taste', 'taste', 'eat', 'eat', 'eat', 'sit', 'use', 'allow', 'taste', 'stay', 'complete', 'clean', 'relax', 'enjoy', 'stay', 'stay', 'enjoy', 'use', 'use', 'treat', 'utilize', 'use', 'suck', 'use', 'use', 'stay', 'stay', 'fit', 'taste', 'relax', 'use', 'use', 'cook', 'cook', 'use', 'stay', 'eat', 'eat', 'enjoy', 'use', 'appreciate', 'use', 'cook'], 6: ['install', 'blow', 'ruin', 'blow', 'spray', 'spray', 'clog', 'dig', 'unlock', 'unlock', 'pull', 'undercook'], 7: ['bring', 'describe', 'help', 'refer', 'deliver', 'combine', 'come', 'deliver', 'open', 'live', 'make', 'make', 'come', 'visit', 'refer', 'deliver', 'make', 'put', 'make', 'receive', 'work', 'help', 'work', 'show', 'make', 'play', 'work', 'happen', 'refer', 'undergo', 'make', 'order', 'come', 'help', 'represent', 'make', 'happen', 'come', 'make', 'expect', 'meet', 'help', 'set', 'work', 'open', 'operate', 'refer', 'come', 'make', 'help', 'add', 'work', 'response', 'count', 'visit', 'start', 'come', 'come', 'make', 'show', 'order', 'come', 'come', 'plan', 'add', 'help', 'act', 'pick', 'make', 'visit', 'induce', 'playing', 'work', 'expect', 'put', 'make', 'work', 'meet'], 8: ['love', 'need', 'want', 'want', 'love', 'want', 'love', 'want', 'disappoint', 'want', 'wish', 'need', 'wish', 'love', 'want', 'love', 'love', 'love', 'love', 'love', 'need', 'love', 'waste', 'want', 'lie', 'love', 'suffer', 'need', 'want', 'want', 'need', 'want', 'refuse', 'need', 'want', 'love', 'bother'], 9: ['leave', 'go', 'walk', 'go', 'go', 'run', 'walk', 'go', 'go', 'move', 'move', 'leave', 'speed', 'go', 'push', 'step', 'go', 'go', 'go', 'go', 'go', 'train', 'drive', 'go', 'go', 'go', 'go', 'go', 'go', 'go', 'drive', 'go', 'leave', 'go', 'go', 'go', 'go', 'rush', 'tow', 'go', 'travel', 'walk', 'run', 'run', 'go', 'turn', 'go', 'go'], 10: ['scent', 'notice', 'look', 'smell', 'seem', 'wait', 'seem', 'look', 'seem', 'listen', 'listen', 'seem', 'listen', 'close', 'wait', 'wait', 'watch', 'seem', 'wait', 'look'], 11: ['pay', 'offer', 'own', 'own', 'save', 'pay', 'give', 'offer', 'offer', 'win', 'shop', 'give', 'give', 'give', 'recover', 'pay', 'return', 'give', 'return', 'return', 'offer', 'give'], 12: ['manage', 'achieve', 'hire', 'hire'], 13: ['have', 'be', 'have', 'have', 'have', 'have', 'last', 'have', 'keep', 'be', 'stick', 'branch', 'have', 'have', 'have', 'like', 'be', 'like', 'have', 'be', 'have', 'have', 'name', 'have', 'be', 'like', 'have', 'have', 'like', 'like', 'have', 'have', 'have', 'be', 'be', 'extend', 'have', 'have', 'have', 'have', 'take', 'hesitate', 'like', 'be', 'take', 'have', 'have', 'take', 'be', 'have', 'have', 'be', 'take', 'have', 'have', 'take', 'have', 'like', 'have', 'have', 'stick', 'have', 'have', 'have', 'have', 'take', 'have', 'take', 'be', 'have', 'take', 'have', 'hesitate', 'have', 'have', 'be', 'remain', 'have', 'have', 'be', 'take', 'keep', 'survive'], 14: ['fall'], 15: []}
+Traceback (most recent call last):
+  File "Supersense_semeval.py", line 344, in <module>
+    supersense_clusters_id,supersense_clusters_name,z=bert_cls.relate_verb_supersense()
+  File "Supersense_semeval.py", line 323, in relate_verb_supersense
+    for v in k[m]:
+NameError: name 'k' is not defined

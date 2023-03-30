@@ -1,0 +1,2855 @@
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,fall,H. Potter
+McGonagall,flinch,Dumbledore
+H. Potter,dodge,Fred
+Miss Granger,tremble,H. Potter
+McGonagall,reach,Dumbledore
+Goyle,reach,Ron
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Uncle Vernon,enter,H. Potter
+H. Potter,enter,Madam Malkin
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+H. Potter,fry,Dudley
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Dudley,fall,H. Potter
+H. Potter,leave,Figg
+Dumbledore,leave,Dursley
+Neville,leave,Madam Hooch
+H. Potter,leave,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+H. Potter,know,Figg
+H. Potter,know,Aunt Petunia
+Filch,know,Ron
+Filch,know,Snape
+Hagrid,know,Snape
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+Dudley,laugh,H. Potter
+H. Potter,laugh,Ron
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+Dudley,chase,H. Potter
+Percy,chatter,Great Hall
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+Dudley,smile,H. Potter
+Dumbledore,smile,H. Potter
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+McGonagall,talk,Dumbledore
+Quirrell,talk,Slytherin
+Ron,teach,H. Potter
+Uncle Vernon,wait,H. Potter
+H. Potter,know,Figg
+H. Potter,know,Aunt Petunia
+Filch,know,Ron
+Filch,know,Snape
+Hagrid,know,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,accept,Uncle Vernon
+Uncle Vernon,open,Dudley
+H. Potter,open,Ron
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Dumbledore,swap,Flitwick
+Uncle Vernon,run,H. Potter
+Hagrid,run,H. Potter
+Uncle Vernon,straighten,H. Potter
+H. Potter,lean,Hagrid
+Slytherin,lose,H. Potter
+Uncle Vernon,lie,H. Potter
+Hagrid,nod,Madam Malkin
+H. Potter,clap,Ron
+Miss Granger,ignore,H. Potter
+Hagrid,frown,Filch
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+H. Potter,find,Aunt Petunia
+Aunt Petunia,find,Dudley
+Snape,find,Hagrid
+Hagrid,find,Voldemort
+H. Potter,find,Ron
+Uncle Vernon,make,Aunt Petunia
+Hagrid,add,H. Potter
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+Uncle Vernon,seize,H. Potter
+Miss Granger,seize,Hagrid
+Aunt Petunia,suggest,Uncle Vernon
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+H. Potter,find,Aunt Petunia
+Aunt Petunia,find,Dudley
+Snape,find,Hagrid
+Hagrid,find,Voldemort
+H. Potter,find,Ron
+Uncle Vernon,go,H. Potter
+H. Potter,go,Ron
+Hagrid,go,Ron
+Ron,go,Neville
+Ron,go,Charlie
+Dudley,dangle,H. Potter
+Dudley,squeak,Uncle Vernon
+Hagrid,stare,H. Potter
+H. Potter,stare,Hagrid
+Ron,stare,H. Potter
+H. Potter,stare,Dumbledore
+Uncle Vernon,run,H. Potter
+Hagrid,run,H. Potter
+H. Potter,leave,Figg
+Dumbledore,leave,Dursley
+Neville,leave,Madam Hooch
+H. Potter,leave,Snape
+Miss Granger,stretch,H. Potter
+H. Potter,follow,Hagrid
+H. Potter,follow,Griphook
+Hagrid,stare,H. Potter
+H. Potter,stare,Hagrid
+Ron,stare,H. Potter
+H. Potter,stare,Dumbledore
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,sit,Hagrid
+H. Potter,learn,Uncle Vernon
+Neville,tug,H. Potter
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Quirrell,grasp,H. Potter
+Quirrell,keep,H. Potter
+H. Potter,call,Hagrid
+Quirrell,scream,H. Potter
+Hagrid,help,H. Potter
+Hagrid,help,H. Potter
+Hagrid,help,Norbert
+Filch,help,Snape
+Uncle Vernon,straighten,H. Potter
+H. Potter,lean,Hagrid
+Slytherin,lose,H. Potter
+Uncle Vernon,lie,H. Potter
+Hagrid,nod,Madam Malkin
+H. Potter,clap,Ron
+Miss Granger,ignore,H. Potter
+Hagrid,frown,Filch
+Uncle Vernon,enter,H. Potter
+H. Potter,enter,Madam Malkin
+Madam Malkin,stand,H. Potter
+Hagrid,stand,H. Potter
+Miss Granger,stand,H. Potter
+Quirrell,stand,Snape
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Madam Malkin,stand,H. Potter
+Hagrid,stand,H. Potter
+Miss Granger,stand,H. Potter
+Quirrell,stand,Snape
+H. Potter,answer,Madam Malkin
+Ron,answer,Flitwick
+H. Potter,answer,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+Hagrid,check,H. Potter
+Miss Granger,test,Ron
+Ollivander,move,H. Potter
+Ollivander,come,H. Potter
+McGonagall,come,H. Potter
+Percy,come,H. Potter
+Ollivander,touch,H. Potter
+H. Potter,spot,Hagrid
+H. Potter,notice,Snape
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,take,Ollivander
+Slytherin,win,McGonagall
+Hagrid,whoop,Ollivander
+Ollivander,fix,H. Potter
+H. Potter,realize,Hagrid
+H. Potter,realize,Quirrell
+Hagrid,help,H. Potter
+Hagrid,help,H. Potter
+Hagrid,help,Norbert
+Filch,help,Snape
+H. Potter,want,Hagrid
+Snape,want,Voldemort
+Uncle Vernon,dump,H. Potter
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,stare,H. Potter
+H. Potter,stare,Hagrid
+Ron,stare,H. Potter
+H. Potter,stare,Dumbledore
+Ron,eat,H. Potter
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Hagrid,stare,H. Potter
+H. Potter,stare,Hagrid
+Ron,stare,H. Potter
+H. Potter,stare,Dumbledore
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Ron,warn,H. Potter
+Ron,warn,H. Potter
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+H. Potter,recognize,Madam Malkin
+McGonagall,reach,Dumbledore
+Goyle,reach,Ron
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,lurch,Ron
+Miss Granger,stomp,H. Potter
+Neville,fasten,Ron
+Quirrell,pin,H. Potter
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Ron,whisper,H. Potter
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Ron,join,H. Potter
+Uncle Vernon,lie,H. Potter
+Hagrid,nod,Madam Malkin
+H. Potter,clap,Ron
+Miss Granger,ignore,H. Potter
+Hagrid,frown,Filch
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+McGonagall,talk,Dumbledore
+Quirrell,talk,Slytherin
+Ron,teach,H. Potter
+H. Potter,watch,Snape
+H. Potter,watch,Seamus Finnigan
+Dumbledore,flash,Ron
+Goyle,howl,Ron
+Dudley,chase,H. Potter
+Percy,chatter,Great Hall
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+Uncle Vernon,go,H. Potter
+H. Potter,go,Ron
+Hagrid,go,Ron
+Ron,go,Neville
+Ron,go,Charlie
+McGonagall,talk,Dumbledore
+Quirrell,talk,Slytherin
+Ron,teach,H. Potter
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,know,Figg
+H. Potter,know,Aunt Petunia
+Filch,know,Ron
+Filch,know,Snape
+Hagrid,know,Snape
+McGonagall,show,Miss Granger
+Ron,insist,Quirrell
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+H. Potter,get,Great Hall
+H. Potter,get,Snape
+H. Potter,get,Ron
+Snape,get,Voldemort
+H. Potter,get,Ron
+H. Potter,borrow,Ron
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,get,Great Hall
+H. Potter,get,Snape
+H. Potter,get,Ron
+Snape,get,Voldemort
+H. Potter,get,Ron
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+H. Potter,glance,Ron
+Hagrid,glance,Ron
+Miss Granger,stretch,H. Potter
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Snape,spit,Seamus Finnigan
+Uncle Vernon,open,Dudley
+H. Potter,open,Ron
+Uncle Vernon,go,H. Potter
+H. Potter,go,Ron
+Hagrid,go,Ron
+Ron,go,Neville
+Ron,go,Charlie
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,glance,Ron
+Hagrid,glance,Ron
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+H. Potter,wonder,Hagrid
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,feel,Neville
+H. Potter,feel,Miss Granger
+H. Potter,feel,Dumbledore
+H. Potter,feel,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Neville,hang,Miss Granger
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,leave,Figg
+Dumbledore,leave,Dursley
+Neville,leave,Madam Hooch
+H. Potter,leave,Snape
+Madam Hooch,bend,Neville
+Neville,streak,Madam Hooch
+Ron,become,Hagrid
+Dumbledore,become,H. Potter
+McGonagall,march,H. Potter
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+McGonagall,peer,H. Potter
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Uncle Vernon,lie,H. Potter
+Hagrid,nod,Madam Malkin
+H. Potter,clap,Ron
+Miss Granger,ignore,H. Potter
+Hagrid,frown,Filch
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+H. Potter,take,Ollivander
+Slytherin,win,McGonagall
+Filch,speak,Norris
+H. Potter,speak,Hagrid
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+H. Potter,yell,Filch
+H. Potter,yell,Miss Granger
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,learn,Uncle Vernon
+Neville,tug,H. Potter
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,fill,Ron
+Charlie,fill,Norbert
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Ron,grin,H. Potter
+H. Potter,answer,Madam Malkin
+Ron,answer,Flitwick
+H. Potter,answer,Quirrell
+Flitwick,beam,H. Potter
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,lurch,Ron
+Miss Granger,stomp,H. Potter
+Ron,sigh,H. Potter
+Ron,moan,H. Potter
+Flitwick,announce,Neville
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+H. Potter,grab,Ron
+Miss Granger,grab,Hagrid
+H. Potter,grab,Uncle Vernon
+Ron,pull,H. Potter
+H. Potter,pull,Fred
+Ron,pull,H. Potter
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,yell,Filch
+H. Potter,yell,Miss Granger
+Neville,hang,Miss Granger
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,stick,Ron
+H. Potter,play,Slytherin
+H. Potter,act,Snape
+H. Potter,play,Seamus Finnigan
+H. Potter,play,Slytherin
+H. Potter,act,Snape
+H. Potter,play,Seamus Finnigan
+H. Potter,spot,Hagrid
+H. Potter,notice,Snape
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Filch,hand,Snape
+H. Potter,leave,Figg
+Dumbledore,leave,Dursley
+Neville,leave,Madam Hooch
+H. Potter,leave,Snape
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+Neville,snore,H. Potter
+H. Potter,breathe,Quirrell
+H. Potter,watch,Snape
+H. Potter,watch,Seamus Finnigan
+H. Potter,change,Slytherin
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Hagrid,raise,H. Potter
+McGonagall,flinch,Dumbledore
+H. Potter,dodge,Fred
+Miss Granger,tremble,H. Potter
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Miss Granger,fight,Snape
+Marcus Flint,block,H. Potter
+Neville,sob,Hagrid
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,play,Slytherin
+H. Potter,act,Snape
+H. Potter,play,Seamus Finnigan
+Ron,punish,Quirrell
+Uncle Vernon,straighten,H. Potter
+H. Potter,lean,Hagrid
+Slytherin,lose,H. Potter
+Ollivander,come,H. Potter
+McGonagall,come,H. Potter
+Percy,come,H. Potter
+Ron,dive,Snape
+H. Potter,jump,Quirrell
+Ron,tear,Flitwick
+Ron,tear,H. Potter
+Ron,leave,Hagrid
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+McGonagall,talk,Dumbledore
+Quirrell,talk,Slytherin
+Ron,teach,H. Potter
+H. Potter,play,Slytherin
+H. Potter,act,Snape
+H. Potter,play,Seamus Finnigan
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Dudley,laugh,H. Potter
+H. Potter,laugh,Ron
+H. Potter,throw,Ron
+Ron,throw,Norris
+H. Potter,get,Great Hall
+H. Potter,get,Snape
+H. Potter,get,Ron
+Snape,get,Voldemort
+H. Potter,get,Ron
+Fred,hold,H. Potter
+H. Potter,take,Miss Granger
+Ollivander,come,H. Potter
+McGonagall,come,H. Potter
+Percy,come,H. Potter
+Ron,pull,H. Potter
+H. Potter,pull,Fred
+Ron,pull,H. Potter
+Dumbledore,swap,Flitwick
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+H. Potter,break,Ron
+H. Potter,break,Dudley
+H. Potter,know,Figg
+H. Potter,know,Aunt Petunia
+Filch,know,Ron
+Filch,know,Snape
+Hagrid,know,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Ron,sigh,H. Potter
+Ron,moan,H. Potter
+Ron,tear,Flitwick
+Ron,tear,H. Potter
+H. Potter,throw,Ron
+Ron,throw,Norris
+Ron,pull,H. Potter
+H. Potter,pull,Fred
+Ron,pull,H. Potter
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Dumbledore,slip,H. Potter
+H. Potter,slip,Filch
+Dumbledore,convince,H. Potter
+Hufflepuff,overtake,Slytherin
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Miss Granger,urge,Neville
+H. Potter,cheer,Ron
+H. Potter,feel,Neville
+H. Potter,feel,Miss Granger
+H. Potter,feel,Dumbledore
+H. Potter,feel,Quirrell
+Neville,walk,H. Potter
+Quirrell,walk,Voldemort
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+Snape,dare,Dumbledore
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Snape,award,Hufflepuff
+Dumbledore,flash,Ron
+Goyle,howl,Ron
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Madam Malkin,stand,H. Potter
+Hagrid,stand,H. Potter
+Miss Granger,stand,H. Potter
+Quirrell,stand,Snape
+H. Potter,feel,Neville
+H. Potter,feel,Miss Granger
+H. Potter,feel,Dumbledore
+H. Potter,feel,Quirrell
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Ron,thump,H. Potter
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+Aunt Petunia,try,Dudley
+Dudley,try,Uncle Vernon
+Uncle Vernon,try,Aunt Petunia
+H. Potter,try,Ron
+H. Potter,hear,Miss Granger
+Neville,try,Goyle
+Snape,try,Quirrell
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+Madam Malkin,stand,H. Potter
+Hagrid,stand,H. Potter
+Miss Granger,stand,H. Potter
+Quirrell,stand,Snape
+Miss Granger,agree,Hagrid
+Hagrid,agree,Charlie
+Miss Granger,agree,Snape
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Miss Granger,agree,Hagrid
+Hagrid,agree,Charlie
+Miss Granger,agree,Snape
+Ron,appear,H. Potter
+McGonagall,appear,Neville
+Hagrid,help,H. Potter
+Hagrid,help,H. Potter
+Hagrid,help,Norbert
+Filch,help,Snape
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+H. Potter,fill,Ron
+Charlie,fill,Norbert
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Dumbledore,take,H. Potter
+Uncle Vernon,take,H. Potter
+Miss Granger,take,Ron
+Filch,take,McGonagall
+Ron,appear,H. Potter
+McGonagall,appear,Neville
+Aunt Petunia,decide,H. Potter
+Snape,do,H. Potter
+Hagrid,do,H. Potter
+H. Potter,do,Snape
+Quirrell,do,Snape
+Miss Granger,do,Ron
+H. Potter,do,Quirrell
+H. Potter,find,Aunt Petunia
+Aunt Petunia,find,Dudley
+Snape,find,Hagrid
+Hagrid,find,Voldemort
+H. Potter,find,Ron
+Hagrid,help,H. Potter
+Hagrid,help,H. Potter
+Hagrid,help,Norbert
+Filch,help,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Uncle Vernon,go,H. Potter
+H. Potter,go,Ron
+Hagrid,go,Ron
+Ron,go,Neville
+Ron,go,Charlie
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Neville,clutch,H. Potter
+H. Potter,clutch,Ron
+Uncle Vernon,lie,H. Potter
+Hagrid,nod,Madam Malkin
+H. Potter,clap,Ron
+Miss Granger,ignore,H. Potter
+Hagrid,frown,Filch
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,grab,Ron
+Miss Granger,grab,Hagrid
+H. Potter,grab,Uncle Vernon
+Uncle Vernon,make,Aunt Petunia
+Hagrid,add,H. Potter
+McGonagall,flinch,Dumbledore
+H. Potter,dodge,Fred
+Miss Granger,tremble,H. Potter
+Neville,clutch,H. Potter
+H. Potter,clutch,Ron
+Quirrell,keep,H. Potter
+H. Potter,begin,Miss Granger
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+H. Potter,remember,Voldemort
+H. Potter,remember,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Miss Granger,like,Ron
+Hagrid,betray,Dumbledore
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Miss Granger,agree,Hagrid
+Hagrid,agree,Charlie
+Miss Granger,agree,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,get,Great Hall
+H. Potter,get,Snape
+H. Potter,get,Ron
+Snape,get,Voldemort
+H. Potter,get,Ron
+Uncle Vernon,complain,Aunt Petunia
+Ron,mutter,H. Potter
+H. Potter,mutter,Snape
+Miss Granger,mutter,Ron
+Ron,mutter,H. Potter
+Ron,mutter,Lee Jordan
+H. Potter,shuffle,Uncle Vernon
+H. Potter,turn,Dumbledore
+Ron,turn,H. Potter
+Ron,turn,H. Potter
+H. Potter,turn,Ron
+H. Potter,turn,Miss Granger
+Ron,warn,H. Potter
+Ron,warn,H. Potter
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Miss Granger,whip,Snape
+Ron,speed,H. Potter
+H. Potter,speed,Snape
+Miss Granger,rocket,H. Potter
+Fred,hold,H. Potter
+H. Potter,take,Miss Granger
+Ron,crash,Miss Granger
+Miss Granger,knock,Snape
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+McGonagall,flinch,Dumbledore
+H. Potter,dodge,Fred
+Miss Granger,tremble,H. Potter
+Ron,crash,Miss Granger
+Miss Granger,knock,Snape
+H. Potter,realize,Hagrid
+H. Potter,realize,Quirrell
+H. Potter,believe,Dudley
+H. Potter,think,Dudley
+H. Potter,think,Uncle Vernon
+H. Potter,think,Hagrid
+H. Potter,think,Seamus Finnigan
+Ron,think,Voldemort
+H. Potter,think,Quirrell
+H. Potter,answer,Madam Malkin
+Ron,answer,Flitwick
+H. Potter,answer,Quirrell
+Quirrell,round,H. Potter
+Neville,snore,H. Potter
+H. Potter,breathe,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Neville,walk,H. Potter
+Quirrell,walk,Voldemort
+H. Potter,spring,Voldemort
+H. Potter,feel,Neville
+H. Potter,feel,Miss Granger
+H. Potter,feel,Dumbledore
+H. Potter,feel,Quirrell
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Neville,fasten,Ron
+Quirrell,pin,H. Potter
+Ron,dive,Snape
+H. Potter,jump,Quirrell
+H. Potter,call,Hagrid
+Quirrell,scream,H. Potter
+Dudley,smile,H. Potter
+Dumbledore,smile,H. Potter
+Quirrell,share,Voldemort
+Ron,become,Hagrid
+Dumbledore,become,H. Potter
+Aunt Petunia,say,Dudley
+H. Potter,say,Dudley
+Ron,say,H. Potter
+Miss Granger,say,H. Potter
+H. Potter,say,Ron
+H. Potter,say,Ron
+Ron,say,Miss Granger
+Ron,repeat,Hagrid
+H. Potter,say,Dumbledore
+Quirrell,say,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,shock,Hagrid
+H. Potter,find,Aunt Petunia
+Aunt Petunia,find,Dudley
+Snape,find,Hagrid
+Hagrid,find,Voldemort
+H. Potter,find,Ron
+H. Potter,bellow,Hagrid
+Filch,speak,Norris
+H. Potter,speak,Hagrid
+Hufflepuff,celebrate,Slytherin
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+Miss Granger,urge,Neville
+H. Potter,cheer,Ron
+Snape,shake,McGonagall
+Doris Crockford,shake,H. Potter
+H. Potter,shake,Neville
+Uncle Vernon,mustache,H. Potter
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Hagrid,give,H. Potter
+Ollivander,give,Hagrid
+Miss Granger,give,H. Potter
+Ron,give,H. Potter
+Snape,give,H. Potter
+Dumbledore,give,H. Potter
+Uncle Vernon,buy,H. Potter
+H. Potter,break,Ron
+H. Potter,break,Dudley
+Uncle Vernon,seem,H. Potter
+H. Potter,grab,Ron
+Miss Granger,grab,Hagrid
+H. Potter,grab,Uncle Vernon
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Uncle Vernon,look,H. Potter
+Dudley,look,Uncle Vernon
+Aunt Petunia,look,H. Potter
+H. Potter,look,Ron
+H. Potter,look,McGonagall
+H. Potter,look,Slytherin
+Slytherin,look,Snape
+H. Potter,look,Ron
+Snape,look,Ron
+Miss Granger,look,Ron
+Miss Granger,look,H. Potter
+Miss Granger,look,Uncle Vernon
+Hagrid,look,H. Potter
+H. Potter,look,Hagrid
+Snape,shake,McGonagall
+Doris Crockford,shake,H. Potter
+H. Potter,shake,Neville
+H. Potter,follow,Hagrid
+H. Potter,follow,Griphook
+Dudley,ask,H. Potter
+Dudley,ask,Aunt Petunia
+H. Potter,ask,Ron
+H. Potter,ask,Ron
+Hagrid,ask,Ron
+Ron,ask,H. Potter
+Hagrid,ask,H. Potter
+H. Potter,find,Aunt Petunia
+Aunt Petunia,find,Dudley
+Snape,find,Hagrid
+Hagrid,find,Voldemort
+H. Potter,find,Ron
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+H. Potter,get,Great Hall
+H. Potter,get,Snape
+H. Potter,get,Ron
+Snape,get,Voldemort
+H. Potter,get,Ron
+Filch,own,Norris
+H. Potter,catch,Seamus Finnigan
+H. Potter,catch,Neville
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,know,Figg
+H. Potter,know,Aunt Petunia
+Filch,know,Ron
+Filch,know,Snape
+Hagrid,know,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Miss Granger,fight,Snape
+Marcus Flint,block,H. Potter
+Uncle Vernon,seize,H. Potter
+Miss Granger,seize,Hagrid
+Uncle Vernon,go,H. Potter
+H. Potter,go,Ron
+Hagrid,go,Ron
+Ron,go,Neville
+Ron,go,Charlie
+Dumbledore,slip,H. Potter
+H. Potter,slip,Filch
+H. Potter,see,Dudley
+H. Potter,see,Uncle Vernon
+H. Potter,see,Ron
+H. Potter,see,Quirrell
+H. Potter,see,Hagrid
+H. Potter,see,Hagrid
+H. Potter,remember,Voldemort
+H. Potter,remember,Snape
+H. Potter,be,Dursley
+Dudley,be,H. Potter
+H. Potter,be,Dudley
+H. Potter,be,Uncle Vernon
+H. Potter,be,Dudley
+H. Potter,be,Hagrid
+Dumbledore,be,Nicolas Flamel
+Ron,be,H. Potter
+Snape,be,Miss Granger
+Miss Granger,be,Neville
+Ron,be,H. Potter
+Ron,be,Miss Granger
+H. Potter,be,Quirrell
+Dumbledore,be,Nicolas Flamel
+Snape,be,H. Potter
+Longbottom,be,Ron
+Ron,be,H. Potter
+Charlie,be,Norbert
+Charlie,be,Norbert
+H. Potter,be,McGonagall
+H. Potter,be,Ron
+Quirrell,be,H. Potter
+H. Potter,be,Quirrell
+Goyle,be,Ron
+Neville,be,Snape
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Ron,speed,H. Potter
+H. Potter,speed,Snape
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+H. Potter,pass,Quirrell
+Snape,shake,McGonagall
+Doris Crockford,shake,H. Potter
+H. Potter,shake,Neville
+H. Potter,catch,Seamus Finnigan
+H. Potter,catch,Neville
+Dudley,have,Figg
+Hagrid,have,H. Potter
+H. Potter,have,Hagrid
+Hagrid,have,H. Potter
+Ron,have,Dudley
+H. Potter,have,Ron
+Dudley,have,H. Potter
+H. Potter,have,Hagrid
+Neville,have,Seamus Finnigan
+H. Potter,have,Dudley
+H. Potter,have,Hagrid
+Miss Granger,have,Neville
+Neville,have,Filch
+McGonagall,have,Ron
+H. Potter,have,Snape
+H. Potter,have,Lee Jordan
+H. Potter,have,Norris
+H. Potter,have,Ron
+H. Potter,have,Snape
+Miss Granger,have,H. Potter
+Hagrid,have,Norbert
+Uncle Vernon,have,Dudley
+H. Potter,have,Ron
+Snape,have,Hufflepuff
+H. Potter,have,Snape
+Hagrid,check,H. Potter
+Miss Granger,test,Ron
+H. Potter,want,Hagrid
+Snape,want,Voldemort
+Hagrid,let,H. Potter
+Neville,let,Ron
+Hagrid,let,Snape
+Snape,favor,Hufflepuff
+Miss Granger,let,H. Potter
+Hagrid,let,Dumbledore
+Hagrid,tell,H. Potter
+H. Potter,tell,Dedalus Diggle
+Hagrid,tell,Voldemort
+H. Potter,tell,Slytherin
+H. Potter,tell,Hagrid
+Ron,tell,Charlie
+McGonagall,tell,H. Potter
+Fred,tell,H. Potter
+H. Potter,tell,Snape
+H. Potter,tell,Miss Granger
+Professor Binns,tell,H. Potter
+H. Potter,tell,Ron
+H. Potter,tell,Quirrell
+Ron,tell,Hagrid
+Ron,tell,Quirrell
+H. Potter,tell,Quirrell
+Hufflepuff,celebrate,Slytherin

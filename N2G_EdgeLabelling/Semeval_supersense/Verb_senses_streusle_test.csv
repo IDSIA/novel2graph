@@ -1,0 +1,556 @@
+,text,verb_lemma,supersense_tag
+0,Highly recommended,recommend,verb.communication
+1,My 8 year old daughter loves this place.,love,verb.emotion
+2,thank you,thank,B-DISC
+3,Their Thali was not brought out as described (no saag).,bring,verb.motion
+4,Their Thali was not brought out as described (no saag).,describe,verb.communication
+5,absolutely fantastic experience getting my iphone upgraded at Zion ...,get,verb.change
+6,absolutely fantastic experience getting my iphone upgraded at Zion ...,upgrade,verb.change
+7,Sheer contrast to getting it done at karol bagh which is done under the wooden plank,get,verb.social
+8,Sheer contrast to getting it done at karol bagh which is done under the wooden plank,do,verb.change
+9,Sheer contrast to getting it done at karol bagh which is done under the wooden plank,do,verb.stative
+10,"They specialize in financial institutions, medical, and retail projects.",specialize,B-V-v.cognition
+11,These guys know what they're doing and helped me in all phases of our project.,know,B-V.VID-v.cognition
+12,These guys know what they're doing and helped me in all phases of our project.,do,I_
+13,These guys know what they're doing and helped me in all phases of our project.,help,verb.social
+14,Daniel and his assistant both did a great job.,do,B-V.LVC.full-v.social
+15,But the servers don't pay attention to you whether it's busy or not.,pay,B-V.LVC.full-v.perception
+16,Worst Tasting Pizza,taste,verb.perception
+17,This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.,have,verb.stative
+18,This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.,taste,verb.perception
+19,This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.,taste,verb.perception
+20,This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.,eat,verb.consumption
+21,I don't recommend this place to anyone or even anything to eat.,recommend,verb.communication
+22,I don't recommend this place to anyone or even anything to eat.,eat,verb.consumption
+23,Very friendly people offering a brilliant service.,offer,B-V-v.social
+24,Sent scented flowers home instead of postcards.,send,verb.motion
+25,Sent scented flowers home instead of postcards.,scent,B-N-n.ARTIFACT
+26,Recommend you call in for a look.,recommend,verb.communication
+27,Recommend you call in for a look.,call,B-V.VPC.semi-v.communication
+28,I have eaten here several times and everytime the service is slower than slow.,eat,verb.consumption
+29,One time we even left after sitting at the table for 20 minutes and not being greeted with a drink order.,leave,verb.stative
+30,One time we even left after sitting at the table for 20 minutes and not being greeted with a drink order.,sit,verb.stative
+31,One time we even left after sitting at the table for 20 minutes and not being greeted with a drink order.,greet,verb.social
+32,There must be a better mexican place in Rockland.,be,verb.stative
+33,I'm pleased that someone referred me to them for my commercial business.,refer,verb.communication
+34,I own a property management firm and need a contractor with the credentials that Farrell Electric has.,own,verb.possession
+35,I own a property management firm and need a contractor with the credentials that Farrell Electric has.,need,verb.cognition
+36,I own a property management firm and need a contractor with the credentials that Farrell Electric has.,have,verb.stative
+37,"Sanctuary serves delicious, somewhat healthy food in a great restaurant/fast food style.",serve,verb.social
+38,And they deliver!,deliver,verb.motion
+39,I think the women at this salon know that their business is based primarily from referrals. :),think,verb.cognition
+40,I think the women at this salon know that their business is based primarily from referrals. :),know,verb.cognition
+41,I think the women at this salon know that their business is based primarily from referrals. :),base,verb.stative
+42,Edit was the best massage therapist I've ever had and I would HIGHLY recommend her!,have,verb.stative
+43,Edit was the best massage therapist I've ever had and I would HIGHLY recommend her!,recommend,I~-V-v.communication
+44,"Paula has an amazing gift for creativity, vision and the ability to combine art to / with commercial purpose.",have,B-V.VID-v.stative
+45,"Paula has an amazing gift for creativity, vision and the ability to combine art to / with commercial purpose.",combine,verb.stative
+46,Thank you for fixing the leak on my bathroom!,thank,B-DISC
+47,Thank you for fixing the leak on my bathroom!,fix,verb.change
+48,Food is often expired so check the dates every time!,check,verb.cognition
+49,Also more often than not you end up with a healthy dose of nasty rude attitude from the employees!,end,B-V.VPC.full-v.stative
+50,"They have fresh flowers, lasted a long while in the vase, and the two ladies at the shop know the business well.",have,verb.stative
+51,"They have fresh flowers, lasted a long while in the vase, and the two ladies at the shop know the business well.",last,verb.stative
+52,"They have fresh flowers, lasted a long while in the vase, and the two ladies at the shop know the business well.",know,verb.cognition
+53,I had no problem with my delivery.,have,B-V.LVC.full-v.cognition
+54,I will go there again.,go,verb.motion
+55,"this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best, keep them lovely kebabs coming and a happy new year to all the staff",keep,B-V.VID-v.stative
+56,"this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best, keep them lovely kebabs coming and a happy new year to all the staff",come,I_
+57,"The waiting staff is really friendly, its like every one knows each other, the manager is really sweet and the food..well no complaints from me.",be,verb.stative
+58,"The waiting staff is really friendly, its like every one knows each other, the manager is really sweet and the food..well no complaints from me.",know,verb.social
+59,"Took 1+ hour to deliver to Chatham, hair in food, driver didn't know area.",take,verb.stative
+60,"Took 1+ hour to deliver to Chatham, hair in food, driver didn't know area.",deliver,verb.motion
+61,"Took 1+ hour to deliver to Chatham, hair in food, driver didn't know area.",know,verb.cognition
+62,Noticed a few of these Cookie cutter places opening in Summit and New Providence.,notice,verb.cognition
+63,Noticed a few of these Cookie cutter places opening in Summit and New Providence.,open,verb.social
+64,"Stick to Hop Hing, 20 year+ resident.",stick,B-V.IAV-v.social
+65,"I live in the neighborhood and this place is one of my favorites for a tasty, quick and inexpensive meal.",live,verb.social
+66,"Branch out and try something other than the Pad Thai, the curries are fantastic.",branch,B-V.IAV-v.social
+67,"Branch out and try something other than the Pad Thai, the curries are fantastic.",try,verb.social
+68,"Fast and friendly service, they know my order when I walk in the door!",know,verb.cognition
+69,"Fast and friendly service, they know my order when I walk in the door!",walk,verb.motion
+70,Feel good,feel,verb.emotion
+71,I just wanted to try your clinic because I was not totally happy with my current therapist I regularly see.,want,verb.cognition
+72,I just wanted to try your clinic because I was not totally happy with my current therapist I regularly see.,try,verb.possession
+73,I just wanted to try your clinic because I was not totally happy with my current therapist I regularly see.,see,verb.social
+74,Now I've found someone who can manage to do what I really want.,find,verb.social
+75,Now I've found someone who can manage to do what I really want.,manage,verb.cognition
+76,Now I've found someone who can manage to do what I really want.,do,verb.stative
+77,Now I've found someone who can manage to do what I really want.,want,verb.cognition
+78,Will use again in the future.,use,verb.possession
+79,"The Donuts were very over proofed, making them stale and bready.",make,verb.stative
+80,"The service was friendly and fast, but this just doesnt make up for the lack-luster product.",make,B-V.IAV-v.social
+81,"We tried 4 different style of donuts, they were all the same when it came to quality.",try,verb.consumption
+82,"We tried 4 different style of donuts, they were all the same when it came to quality.",come,I_
+83,Don't judge a book by its cover,judge,I~-V-v.cognition
+84,From the outside Ichiban looks like it will be terrible.,look,verb.perception
+85,"The food is amazing, and the prices cannot be beat.",beat,I~-V-v.stative
+86,"The sushi is great, and they have a great selection.",have,verb.stative
+87,"Compact's Corona dryers remove at least twice as much water as the previous dryers, allowing a production increase of over 10% and a significant energy saving.",remove,verb.change
+88,"Compact's Corona dryers remove at least twice as much water as the previous dryers, allowing a production increase of over 10% and a significant energy saving.",allow,verb.stative
+89,It taste better than In and Out....,taste,verb.perception
+90,Nice little locally owned greek bar and grill.,own,I_
+91,and did great job .,do,B-V-v.stative
+92,"The best Thai food I've ever had in Australia, very fresh and so much favor of authentic Thai .",have,verb.stative
+93,The restaurant is the most beautiful thai restaurant in Geelong... just love it,love,verb.emotion
+94,Friendliest place I have ever stayed!,stay,verb.social
+95,The place smells and the owner is very very rude!,smell,verb.perception
+96,I could go on and on!,go,B-V.VID-v.communication
+97,Just don't go there.,go,verb.motion
+98,These guys really know their stuff .. they have almost anything you could want in terms of spy and surviellance equipment.,know,B-V.VID-v.cognition
+99,These guys really know their stuff .. they have almost anything you could want in terms of spy and surviellance equipment.,have,verb.stative
+100,These guys really know their stuff .. they have almost anything you could want in terms of spy and surviellance equipment.,want,verb.cognition
+101,Truly james bond style stuff ... would recommend,recommend,verb.communication
+102,Best fried shrimp in the state!,fry,O-ADJ
+103,We would like to thank our emergency plumbers who visted our shop in Morningside Road today.,like,I_
+104,We would like to thank our emergency plumbers who visted our shop in Morningside Road today.,thank,I~-V-v.communication
+105,We would like to thank our emergency plumbers who visted our shop in Morningside Road today.,visit,verb.motion
+106,"A fast service, saved a bad situation getting alot worse.",save,verb.stative
+107,"A fast service, saved a bad situation getting alot worse.",get,B-V-v.change
+108,MFJ Inc transformed our run down back yard into a place of beauty.,transform,verb.change
+109,MFJ Inc transformed our run down back yard into a place of beauty.,run,B-ADJ
+110,"The work was completed within one week, and everything was cleaned up on completion.",complete,verb.change
+111,"The work was completed within one week, and everything was cleaned up on completion.",clean,B-V.VPC.semi-v.change
+112,Highly recommended landscaper!!!,recommend,I~-V-v.communication
+113,I refer to VNHH often and love you guys.,refer,B-V-v.communication
+114,I refer to VNHH often and love you guys.,love,verb.emotion
+115,My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.,be,verb.stative
+116,My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.,deliver,verb.motion
+117,My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.,seem,verb.cognition
+118,My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.,like,verb.emotion
+119,My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.,answer,B-V-v.communication
+120,"Clean store, friendly check-out staff up front.",check,B-N-n.ACT
+121,A thoroughly comprehensive service; excellent communication and best of they are transparent with their fee (ie nothing is simply implied or assumed).,imply,verb.communication
+122,A thoroughly comprehensive service; excellent communication and best of they are transparent with their fee (ie nothing is simply implied or assumed).,assume,verb.communication
+123,Make sure to put OILY sauces on your food to make it moist!,make,B-V.VID-v.cognition
+124,Make sure to put OILY sauces on your food to make it moist!,put,verb.contact
+125,Make sure to put OILY sauces on your food to make it moist!,make,verb.stative
+126,"The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap",get,verb.stative
+127,"The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap",have,B-AUX
+128,"The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap",wait,verb.cognition
+129,"The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap",be,verb.stative
+130,"The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap",pay,verb.possession
+131,I have no complaints about the service I received.,have,B-V.LVC.full-v.communication
+132,I have no complaints about the service I received.,receive,I~-V-v.social
+133,I never felt worried and walked away satisfied.,feel,verb.emotion
+134,I never felt worried and walked away satisfied.,walk,B-V.VPC.full-v.social
+135,"okay, I dont have a review, but why in the hell would you name your business something that has the initials KKK....is there something behind the scenes at this place?",have,verb.stative
+136,"okay, I dont have a review, but why in the hell would you name your business something that has the initials KKK....is there something behind the scenes at this place?",name,verb.communication
+137,"okay, I dont have a review, but why in the hell would you name your business something that has the initials KKK....is there something behind the scenes at this place?",have,verb.stative
+138,"okay, I dont have a review, but why in the hell would you name your business something that has the initials KKK....is there something behind the scenes at this place?",be,verb.stative
+139,You guys do everything wonderful!,do,verb.stative
+140,We honestly cannot think of even 1 thing we didn't like!,think,B-V.IAV-v.cognition
+141,We honestly cannot think of even 1 thing we didn't like!,like,verb.emotion
+142,Best pedi mani Ive ever had.,have,verb.stative
+143,"Darla is amazing, I would recoment her to anyone.",recommend,B-V-v.communication
+144,Iv just had my bmw z3 rear window replaced by the guys at kelvin trimmers.,have,verb.stative
+145,Iv just had my bmw z3 rear window replaced by the guys at kelvin trimmers.,replace,verb.change
+146,"The team who work there are helpfull, friendly and extremely knowledgeable and will help you as much as they can with thier years of hands on practice.",work,verb.social
+147,"The team who work there are helpfull, friendly and extremely knowledgeable and will help you as much as they can with thier years of hands on practice.",help,verb.social
+148,Highly recomended.,recommend,I~-V-v.communication
+149,Go in and you will not think you are in Chesapeake.,go,verb.motion
+150,Go in and you will not think you are in Chesapeake.,think,verb.cognition
+151,"The setting feels like a Sushi bar in NYC; small, cozy, but with flair.",feel,verb.cognition
+152,"Get great service, fantastic menu, and relax.",get,B-V-v.social
+153,"Get great service, fantastic menu, and relax.",relax,verb.emotion
+154,I really want to like this place since I work right around the corner.,want,verb.cognition
+155,I really want to like this place since I work right around the corner.,like,verb.emotion
+156,I really want to like this place since I work right around the corner.,work,verb.social
+157,"Unfortunately, I've given it a couple of tries at different times and decided to stop going.",give,B-V-v.social
+158,"Unfortunately, I've given it a couple of tries at different times and decided to stop going.",decide,verb.cognition
+159,"Unfortunately, I've given it a couple of tries at different times and decided to stop going.",stop,verb.change
+160,"Unfortunately, I've given it a couple of tries at different times and decided to stop going.",go,verb.social
+161,The employees don't really seem to enjoy what they are doing and it shows.,seem,verb.perception
+162,The employees don't really seem to enjoy what they are doing and it shows.,enjoy,verb.emotion
+163,The employees don't really seem to enjoy what they are doing and it shows.,do,verb.social
+164,The employees don't really seem to enjoy what they are doing and it shows.,show,verb.perception
+165,"Decent place to stay, I would stay there again.",stay,verb.social
+166,"Decent place to stay, I would stay there again.",stay,verb.social
+167,"Rooms were clean, plenty of things to do near hotel, and safe part of town.",do,verb.social
+168,"the apartment only looks good outsize, inside is too bad.",look,verb.perception
+169,too many bugs some you even never seen before.,see,verb.perception
+170,"the attitude of some staff is terrible, did not solve anything only say i can do nothing.",solve,verb.cognition
+171,"the attitude of some staff is terrible, did not solve anything only say i can do nothing.",say,verb.communication
+172,"the attitude of some staff is terrible, did not solve anything only say i can do nothing.",do,B-V-v.change
+173,Installed Biometrics and Got Excellent Service.,install,verb.change
+174,Installed Biometrics and Got Excellent Service.,get,verb.social
+175,"I like I Move CA - Los Angeles Movers, they moved me before, but this time they were awesome :)",like,verb.emotion
+176,"I like I Move CA - Los Angeles Movers, they moved me before, but this time they were awesome :)",move,I_
+177,"I like I Move CA - Los Angeles Movers, they moved me before, but this time they were awesome :)",move,verb.motion
+178,Doctor Bogomilsky knows her stuff too.,know,B-V.VID-v.cognition
+179,A Top Quality Sandwich made to artistic standards.,make,verb.creation
+180,The best darlington has to offer in contemporary sandwicheering.,have,B-V.VID-v.social
+181,The best darlington has to offer in contemporary sandwicheering.,offer,I_
+182,Fast Service Called them one hour ago and they just left my house five minutes ago.,call,verb.communication
+183,Fast Service Called them one hour ago and they just left my house five minutes ago.,leave,verb.motion
+184,My house already feels fresh and good thanks to the Battery Park Pest I'm enjoying my time indoors much better.,feel,verb.cognition
+185,My house already feels fresh and good thanks to the Battery Park Pest I'm enjoying my time indoors much better.,enjoy,verb.emotion
+186,Will never use again.,use,verb.social
+187,The workers sped up and down the street with no mind to the small children playing.,speed,verb.change
+188,The workers sped up and down the street with no mind to the small children playing.,play,verb.social
+189,"We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.",go,I_
+190,"We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.",get,B-V.LVC.cause-v.change
+191,"We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.",work,I_
+192,"We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.",happen,verb.change
+193,"We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.",refer,verb.communication
+194,This is a great place to get a permit,get,verb.stative
+195,"I had to get a permit here, it was cool",have,B-AUX
+196,"I had to get a permit here, it was cool",get,verb.stative
+197,These guys do great work at VERY reasonable prices.,do,B-V.LVC.full-v.social
+198,I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata.,use,verb.social
+199,I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata.,fix,verb.change
+200,I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata.,push,verb.contact
+201,I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata.,fix,verb.change
+202,I have never been disappointed.,disappoint,verb.emotion
+203,Very good hospitality offered.!,offer,verb.social
+204,Keep it up.,keep,B-DISC
+205,spoken english rushi,speak,verb.communication
+206,can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles.,forget,verb.cognition
+207,can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles.,undergo,verb.social
+208,can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles.,make,verb.stative
+209,can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles.,step,verb.stative
+210,"The staff, material provided, infra structure, environment &low fees totally above the satisfactory mark",provide,verb.social
+211,I just had the best experience at this Kal Tire location.,have,verb.stative
+212,We order take out from here all the time and we are never disappointed.,order,verb.communication
+213,It can be a little on the spicy side but just ask them exactly what you want and they are very helpful.,ask,verb.communication
+214,It can be a little on the spicy side but just ask them exactly what you want and they are very helpful.,want,verb.cognition
+215,"Restaurant on top was renovated, food was decent, price was way to high for Duluth for quality, new decor seems tacky",renovate,verb.change
+216,"Restaurant on top was renovated, food was decent, price was way to high for Duluth for quality, new decor seems tacky",seem,verb.perception
+217,These people were so helpful this week and did everything to sort out my windscreen and insurance.,do,verb.stative
+218,These people were so helpful this week and did everything to sort out my windscreen and insurance.,sort,B-V.VPC.full-v.cognition
+219,It was all sorted with no hassle at all and I'm really grateful - they were fab.,sort,verb.cognition
+220,The best customer service I've come across for long time.,come,B-V.IAV-v.cognition
+221,Michael helped shoot the majority of my firm's website and we could not have been happier.,help,verb.social
+222,Michael helped shoot the majority of my firm's website and we could not have been happier.,shoot,verb.social
+223,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,go,B-V.IAV-v.social
+224,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,find,verb.cognition
+225,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,represent,verb.social
+226,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,wish,verb.cognition
+227,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,make,verb.stative
+228,We went through six photographers to find the right photographers that would represent our firm in the light we wished to and Michael and his team made that happen.,happen,verb.stative
+229,The pancakes are to die for.,be,verb.stative
+230,The pancakes are to die for.,die,I_
+231,Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism!,provide,B-V-v.social
+232,Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism!,come,verb.stative
+233,Her flexibility and accessibility made for an easy closing.,make,B-V.IAV-v.stative
+234,this is the worst Sams club I've ever been to,be,B-V.IAV-v.motion
+235,what a mindblowing servicing,blow,I_
+236,They treat there employees with respect and concern and expect that they will extend the same politeness to there customers.,treat,verb.social
+237,They treat there employees with respect and concern and expect that they will extend the same politeness to there customers.,expect,verb.cognition
+238,They treat there employees with respect and concern and expect that they will extend the same politeness to there customers.,extend,verb.social
+239,i went there since i was four.,go,verb.motion
+240,now i will have really straight teeth.,have,verb.stative
+241,Yeah they ruined some shirts I had too.,ruin,verb.change
+242,Yeah they ruined some shirts I had too.,have,verb.possession
+243,I just called this number and it is a Ralph's Market.,call,verb.communication
+244,Highly recommend,recommend,verb.communication
+245,I went to this urgent care center and was blown away with their service.,go,verb.motion
+246,I went to this urgent care center and was blown away with their service.,blow,B-V.VPC.full-v.cognition
+247,Will definitely go back when I need medical care.,go,B-V.VPC.semi-v.motion
+248,Will definitely go back when I need medical care.,need,verb.cognition
+249,Winning Attorney!,win,verb.competition
+250,"The only 10.0 ""Perfect Score"" AVVO Rated Attorney I Have Ever Met.",rate,verb.communication
+251,"The only 10.0 ""Perfect Score"" AVVO Rated Attorney I Have Ever Met.",meet,verb.social
+252,"I Highly Recommend, The Law Offices Of Dale Gribow!!",recommend,I~-V-v.communication
+253,"wow, the representative went way above and beyond in helping me with my account set up.",go,B-V.VID-v.social
+254,"wow, the representative went way above and beyond in helping me with my account set up.",help,verb.social
+255,i wish the other utilities i had to set up had people to work with like this..,wish,verb.cognition
+256,i wish the other utilities i had to set up had people to work with like this..,have,B-AUX
+257,i wish the other utilities i had to set up had people to work with like this..,set,B-V.VPC.full-v.creation
+258,i wish the other utilities i had to set up had people to work with like this..,have,verb.stative
+259,i wish the other utilities i had to set up had people to work with like this..,work,B-V-v.social
+260,I would highly recommend Landscape by Hiro.,recommend,I~-V-v.communication
+261,This is a great place to shop.,shop,verb.social
+262,"I've been a regular customer at this store since it opened, and love the fact that all of the employees are friendly locals.",open,verb.social
+263,"I've been a regular customer at this store since it opened, and love the fact that all of the employees are friendly locals.",love,verb.emotion
+264,"Particularly the lady who operates the front register, she's very kind!",operate,verb.social
+265,Listened to my problem and took care of it.,listen,B-V-v.perception
+266,Listened to my problem and took care of it.,take,B-V.IAV-v.social
+267,Gets the Job Done,get,B-V.VID-v.change
+268,We have utilized Mr. Pozza and his firm twice now in our family and both times have been very pleased.,utilize,verb.social
+269,I would not hesitate to use him again or refer him to my family or friends.,hesitate,verb.cognition
+270,I would not hesitate to use him again or refer him to my family or friends.,use,verb.social
+271,I would not hesitate to use him again or refer him to my family or friends.,refer,verb.communication
+272,remember to ask for extra vege,remember,verb.cognition
+273,remember to ask for extra vege,ask,B-V-v.communication
+274,THE TEACHING THERE SUCKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,suck,verb.stative
+275,ALL OF THE TEACHERS THERE ARE SO MEAN THEY GET MAD AT YOU FOR NOTHING!!!!!!!!!!!!!!!!!!!,get,verb.cognition
+276,"The staff in Allentown are friendly, helpful and a delight to know..",know,verb.cognition
+277,A real pleasure training with Natasha.,train,verb.social
+278,"She really listens to what it is you would like to achieve, and I am very happy with my results.",listen,verb.perception
+279,"She really listens to what it is you would like to achieve, and I am very happy with my results.",like,I_
+280,"She really listens to what it is you would like to achieve, and I am very happy with my results.",achieve,verb.cognition
+281,I would highly recommend her services.,recommend,I~-V-v.communication
+282,"Feels like you are in Brooklyn, but people watching is entertaining.",feel,verb.cognition
+283,"There is no lower rating for Noonan's Liquor, owners and employees.",be,verb.stative
+284,Bulwark regarding service by Eric,regard,verb.cognition
+285,Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.,want,verb.cognition
+286,Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.,know,verb.cognition
+287,Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.,come,B-V.VPC.semi-v.motion
+288,Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.,schedule,verb.social
+289,Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.,spray,B-V-v.contact
+290,He seemed to understand how important it was for us to make sure the whole house was sprayed so he took his time.,seem,verb.cognition
+291,He seemed to understand how important it was for us to make sure the whole house was sprayed so he took his time.,understand,verb.cognition
+292,He seemed to understand how important it was for us to make sure the whole house was sprayed so he took his time.,make,B-V.VID-v.cognition
+293,He seemed to understand how important it was for us to make sure the whole house was sprayed so he took his time.,spray,verb.contact
+294,He seemed to understand how important it was for us to make sure the whole house was sprayed so he took his time.,take,B-V.VID-v.social
+295,Thank you!,thank,B-DISC
+296,Best ceviche that I'd had so far! :),have,verb.consumption
+297,Deep tissue massage helps with pain in neck and shoulders,help,verb.body
+298,Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area.,provide,verb.social
+299,Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area.,reduce,verb.change
+300,Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area.,add,verb.change
+301,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",listen,verb.communication
+302,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",diagnose,verb.cognition
+303,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",address,verb.cognition
+304,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",explain,verb.communication
+305,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",suggest,verb.communication
+306,"He listens and is excellent in diagnosing, addressing and explaining the specific issues and suggesting exercises to use.",use,verb.stative
+307,We got upgraded to a corner suite!,get,verb.change
+308,We got upgraded to a corner suite!,upgrade,B-V-v.change
+309,I have used Bright Futures for the last 7 years.,use,verb.social
+310,I have 3 children there and they are the Best.,have,verb.stative
+311,Your children will be taken care of and loved by a professional staff.,take,B-V.IAV-v.social
+312,Your children will be taken care of and loved by a professional staff.,love,verb.emotion
+313,I called over the weekend due to clogged kitchen sink.,call,verb.communication
+314,I called over the weekend due to clogged kitchen sink.,clog,verb.stative
+315,Scheduled appointment for 8:30 Monday morning.,schedule,verb.social
+316,Rich was here before the scheduled time.,schedule,verb.social
+317,"He was very clean, very nice to work with and gave a very reasonable price.",work,B-V-v.social
+318,"He was very clean, very nice to work with and gave a very reasonable price.",give,B-V-v.communication
+319,HIGHLY recommend.,recommend,I~-V-v.communication
+320,"""Thank you so much for the superior job well done.",thank,B-DISC
+321,"""Thank you so much for the superior job well done.",do,I_
+322,We love everything about the fence.,love,verb.emotion
+323,"You company and services will be recommended by us to everyone.""",recommend,verb.communication
+324,never response the phone call,response,verb.communication
+325,I love this place lots of people to talk to and school is across the street!,love,verb.emotion
+326,I love this place lots of people to talk to and school is across the street!,talk,verb.communication
+327,Drove all the way over from the highway... closed at 7.,drive,verb.motion
+328,Drove all the way over from the highway... closed at 7.,close,verb.stative
+329,Who does that?!,do,verb.stative
+330,My daughter and I stayed here again from the 7th to the 14th of December.,stay,verb.social
+331,Okay our room was at times noisy but we were in a mega busy city at an extremely busy time of year.,be,verb.stative
+332,"I have had several dentists in my life, but Dr. Deters is by far my favorite.",have,verb.stative
+333,I never wait in the waiting room more than two minutes and the cleanings are quick and painless.,wait,verb.cognition
+334,"Good local steakhouse, I recommend it!",recommend,verb.communication
+335,Love this place!!,love,verb.emotion
+336,Has another store in the st. charles mall.,have,verb.stative
+337,"Dont go to the one by pepco, I got confused!!!",go,verb.motion
+338,"Dont go to the one by pepco, I got confused!!!",get,B-V.VID-v.cognition
+339,Go to ATLANTIC WIRELESS!!,go,verb.motion
+340,I love them!!!,love,verb.emotion
+341,"there might be bigger and more well known bagel places in the area but Family Bagels are nice people, small shop and incredibly friendly.",be,verb.stative
+342,"there might be bigger and more well known bagel places in the area but Family Bagels are nice people, small shop and incredibly friendly.",know,I_
+343,While other may be ok waiting in line at Town Bagel we are happy with the quality and service we get at Family Bagels,wait,verb.cognition
+344,While other may be ok waiting in line at Town Bagel we are happy with the quality and service we get at Family Bagels,get,verb.social
+345,You are the only one auto glass repair shop in the area I would count on.,count,B-V.IAV-v.cognition
+346,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",believe,B-V.VID-v.cognition
+347,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",visit,verb.social
+348,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",know,verb.cognition
+349,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",start,verb.change
+350,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",come,I_
+351,"Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.",watch,verb.perception
+352,I just give them guide and they can find anything they need.,give,verb.social
+353,I just give them guide and they can find anything they need.,find,verb.cognition
+354,I just give them guide and they can find anything they need.,need,verb.cognition
+355,STAY AWAY,stay,B-V-v.stative
+356,Did services I asked them NOTto do and was still charged.,do,B-V-v.stative
+357,Did services I asked them NOTto do and was still charged.,ask,verb.communication
+358,Did services I asked them NOTto do and was still charged.,do,verb.stative
+359,Did services I asked them NOTto do and was still charged.,charge,verb.possession
+360,These guys took Customer Service 101 from a Neanderthal.,take,verb.social
+361,Do not trust them!,trust,verb.cognition
+362,Just ask American Express,ask,verb.communication
+363,Susanna is the best dress maker/tailor I've ever come across in my whole life!,come,B-V.IAV-v.stative
+364,She makes every item fit you perfectly.,make,verb.stative
+365,She makes every item fit you perfectly.,fit,verb.body
+366,"I was very upset when I went to Mother Plucker, they had NO FEATHERS and the quality is TERRIBLE.",go,verb.motion
+367,"I was very upset when I went to Mother Plucker, they had NO FEATHERS and the quality is TERRIBLE.",have,verb.stative
+368,"I had to dig in a bag to find one nice feather, what a joke!",have,B-AUX
+369,"I had to dig in a bag to find one nice feather, what a joke!",dig,verb.contact
+370,"I had to dig in a bag to find one nice feather, what a joke!",find,verb.cognition
+371,I hired this company to unlock my car.,hire,verb.social
+372,I hired this company to unlock my car.,unlock,verb.change
+373,The price they gave was good so I said hey this seems great.,give,I~-V-v.communication
+374,The price they gave was good so I said hey this seems great.,say,verb.communication
+375,The price they gave was good so I said hey this seems great.,seem,verb.cognition
+376,"After they showed up there was a little trouble to get my car unlocked, it took quite a bit of time but the job was well done.",show,B-V.VPC.full-v.social
+377,"After they showed up there was a little trouble to get my car unlocked, it took quite a bit of time but the job was well done.",get,B-V.VID-v.change
+378,"After they showed up there was a little trouble to get my car unlocked, it took quite a bit of time but the job was well done.",unlock,I_
+379,"After they showed up there was a little trouble to get my car unlocked, it took quite a bit of time but the job was well done.",take,B-V.VID-v.stative
+380,"After they showed up there was a little trouble to get my car unlocked, it took quite a bit of time but the job was well done.",do,I~-V-v.social
+381,they recovered the pics geeksquad deleted.,recover,verb.cognition
+382,they recovered the pics geeksquad deleted.,delete,verb.change
+383,Love Hop City,love,verb.emotion
+384,I know now where to get all of my wine and beer.,know,verb.cognition
+385,I know now where to get all of my wine and beer.,get,verb.possession
+386,No need to go to a grocer again.,go,verb.motion
+387,Don't waste your money on the jukebox,waste,verb.consumption
+388,"The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.",have,verb.stative
+389,"The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.",delete,verb.change
+390,"The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.",like,verb.emotion
+391,"The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.",end,B-V.VPC.full-v.stative
+392,"The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.",pay,verb.possession
+393,Bisconti wanted over $300 to fix my laptop and these guys fixed it for $90!,want,verb.cognition
+394,Bisconti wanted over $300 to fix my laptop and these guys fixed it for $90!,fix,verb.change
+395,Bisconti wanted over $300 to fix my laptop and these guys fixed it for $90!,fix,verb.change
+396,Call them today!,call,verb.communication
+397,Had it fixed within a few days (had to order a part).,have,verb.stative
+398,Had it fixed within a few days (had to order a part).,fix,verb.change
+399,Had it fixed within a few days (had to order a part).,have,B-AUX
+400,Had it fixed within a few days (had to order a part).,order,verb.communication
+401,I schedule my weekly appointment here just to get a chance to lie comfortably on my tummy.,schedule,verb.communication
+402,I schedule my weekly appointment here just to get a chance to lie comfortably on my tummy.,get,B-V.LVC.full-v.cognition
+403,I schedule my weekly appointment here just to get a chance to lie comfortably on my tummy.,lie,verb.body
+404,Quality and service come first here.,come,verb.stative
+405,I have been going there since I was a little girl and love the friendly and relaxing atmosphere.,go,verb.motion
+406,I have been going there since I was a little girl and love the friendly and relaxing atmosphere.,love,verb.emotion
+407,I would recommend Bayside Chiropractic to anyone who is in need of a regular adjustment or is suffering from a chronic condition.,recommend,verb.communication
+408,I would recommend Bayside Chiropractic to anyone who is in need of a regular adjustment or is suffering from a chronic condition.,suffer,verb.cognition
+409,Superior work - always comes through when we need him.,come,B-V.VPC.full-v.social
+410,Superior work - always comes through when we need him.,need,verb.cognition
+411,We have tried many different computer people until now - we will stick with Qualitech Computers!!!,try,verb.social
+412,We have tried many different computer people until now - we will stick with Qualitech Computers!!!,stick,B-V.IAV-v.social
+413,this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.,want,verb.cognition
+414,this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.,pull,B-V.VID-v.contact
+415,this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.,want,verb.cognition
+416,this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.,do,verb.stative
+417,this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.,know,verb.cognition
+418,and hopefully you do not know the same people because he tells others about you payment status.,know,verb.cognition
+419,and hopefully you do not know the same people because he tells others about you payment status.,tell,verb.communication
+420,The best Supermarket in Bay Ridge have everything what a customer needs.,have,verb.stative
+421,The best Supermarket in Bay Ridge have everything what a customer needs.,need,verb.cognition
+422,Definetely going back,go,verb.motion
+423,I wouldn't want any other company in my time of need.,want,verb.cognition
+424,These guys know what they're doing!,know,verb.cognition
+425,These guys know what they're doing!,do,verb.stative
+426,Way to go!,go,I_
+427,I think this location is no longer in business.,think,verb.cognition
+428,"If you check RecWarehouse.com, they don't list this as a location.",check,verb.communication
+429,"If you check RecWarehouse.com, they don't list this as a location.",list,verb.communication
+430,You'll have to drive 10 miles down 75 to Allen.,have,B-AUX
+431,You'll have to drive 10 miles down 75 to Allen.,drive,verb.motion
+432,"Close to my house, this is the only reason I would go to this particular QT.",go,verb.motion
+433,"Fried rice has NO flavor, it literally taste like water.",fry,B-N-n.FOOD
+434,"Fried rice has NO flavor, it literally taste like water.",have,verb.stative
+435,"Fried rice has NO flavor, it literally taste like water.",taste,verb.perception
+436,"When I tried to return it they refused, so I had to leave without a refund and still hungry.",try,verb.social
+437,"When I tried to return it they refused, so I had to leave without a refund and still hungry.",return,verb.possession
+438,"When I tried to return it they refused, so I had to leave without a refund and still hungry.",refuse,verb.communication
+439,"When I tried to return it they refused, so I had to leave without a refund and still hungry.",have,B-AUX
+440,"When I tried to return it they refused, so I had to leave without a refund and still hungry.",leave,verb.motion
+441,"Quality has fallen over the years, but still the best go-to burger place on the East Bay.",fall,verb.change
+442,"Quality has fallen over the years, but still the best go-to burger place on the East Bay.",go,B-ADJ
+443,"It's a nice, relaxed place to get stuff done and relax.",get,B-V.VID-v.social
+444,"It's a nice, relaxed place to get stuff done and relax.",do,I_
+445,"It's a nice, relaxed place to get stuff done and relax.",relax,verb.emotion
+446,I plan on going again.,plan,B-V-v.cognition
+447,I plan on going again.,go,verb.motion
+448,I use their limo services for all of my airport car services and airport transportation needs,use,verb.consumption
+449,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",use,B-AUX
+450,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",take,verb.motion
+451,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",change,verb.change
+452,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",try,verb.cognition
+453,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",add,B-V.VPC.semi-v.possession
+454,"I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to ""add on"" extra services, which sometimes is not needed.",need,verb.cognition
+455,I dont go there anymore,go,verb.motion
+456,I gave Dr. Rohatgi 2 stars because her assistant was very pleasant.,give,verb.stative
+457,"However, I did not find her very helpful and her receptionist was rude.",find,verb.cognition
+458,"Old time grocery, best steaks I have ever had!",have,verb.consumption
+459,"Great meats that are already cooked, easy to take home for dinner.",cook,verb.creation
+460,"Great meats that are already cooked, easy to take home for dinner.",take,verb.motion
+461,"Last time I went however, my beer was warm and the service was so-so.",go,verb.motion
+462,I get that careless teenager kind of treatment from some of their staff...perhaps they should hire more serious adults to help serve/cook.,get,verb.cognition
+463,I get that careless teenager kind of treatment from some of their staff...perhaps they should hire more serious adults to help serve/cook.,hire,verb.social
+464,I get that careless teenager kind of treatment from some of their staff...perhaps they should hire more serious adults to help serve/cook.,help,verb.social
+465,I get that careless teenager kind of treatment from some of their staff...perhaps they should hire more serious adults to help serve/cook.,serve,verb.social
+466,I get that careless teenager kind of treatment from some of their staff...perhaps they should hire more serious adults to help serve/cook.,cook,verb.creation
+467,Overpriced and the doctor acted arrogant and rushed at a time when there was very few clients in the facility.,act,verb.social
+468,Overpriced and the doctor acted arrogant and rushed at a time when there was very few clients in the facility.,rush,verb.cognition
+469,Overpriced and the doctor acted arrogant and rushed at a time when there was very few clients in the facility.,be,verb.stative
+470,I won't return.,return,verb.motion
+471,It was late in the day and I was worried I would get charged an arm and a leg and have to wait forever.,charge,verb.possession
+472,It was late in the day and I was worried I would get charged an arm and a leg and have to wait forever.,have,B-AUX
+473,It was late in the day and I was worried I would get charged an arm and a leg and have to wait forever.,wait,verb.cognition
+474,They picked my car up in Yarmouth and towed to Bath for a great price.,pick,B-V.VPC.full-v.possession
+475,They picked my car up in Yarmouth and towed to Bath for a great price.,tow,verb.motion
+476,Would do business with them again.,do,B-V.LVC.full-v.social
+477,I have been using Steele Electric for years.,use,verb.social
+478,They have always done a great job at a reasonable price.,do,B-V-v.stative
+479,Highly recommended.,recommend,I~-V-v.communication
+480,Would not recommend I Was in a fair amount of pain for several weeks.,recommend,verb.communication
+481,his clinic is very very dirty he is a real disaster to go totally not organized for every step he take .,go,verb.motion
+482,his clinic is very very dirty he is a real disaster to go totally not organized for every step he take .,take,I_
+483,WHAT A GREAT DEAL THANK YOU,thank,B-DISC
+484,One of the better vegetarian sandwiches I've had in Seattle.,have,verb.consumption
+485,"And from a place that specializes in high quality meat, too.",specialize,B-V-v.stative
+486,Stayed here for 2 nights.,stay,verb.social
+487,Good location and off road parking made our stay very convenient.,make,verb.social
+488,"If you want the best for your child, don't hesitate in visiting this wornderful school.",want,verb.cognition
+489,"If you want the best for your child, don't hesitate in visiting this wornderful school.",hesitate,verb.cognition
+490,"If you want the best for your child, don't hesitate in visiting this wornderful school.",visit,verb.social
+491,hard to forgive such an awful margarita and steep prices but the food can be good,forgive,verb.cognition
+492,I felt as if I was in an over priced Olive Garden.,feel,verb.cognition
+493,I was hoping to have found a regular place to eat.,hope,verb.cognition
+494,I was hoping to have found a regular place to eat.,find,verb.cognition
+495,I was hoping to have found a regular place to eat.,eat,verb.consumption
+496,Got to love this place.,get,B-AUX
+497,Got to love this place.,love,verb.emotion
+498,Everyone is relaxed and having fun!!!,have,B-V.LVC.full-v.social
+499,Definately won't be returning.,return,verb.motion
+500,Travelled 40mins after calling to see if a product was in stock.,travel,verb.motion
+501,Travelled 40mins after calling to see if a product was in stock.,call,verb.communication
+502,Travelled 40mins after calling to see if a product was in stock.,see,verb.social
+503,Told that they had plenty.,tell,verb.communication
+504,Told that they had plenty.,have,verb.stative
+505,Get there and there was nothing.,get,verb.motion
+506,Get there and there was nothing.,be,verb.stative
+507,Did a great job of removing my tree in Conyers.,do,B-V-v.social
+508,Did a great job of removing my tree in Conyers.,remove,verb.change
+509,I remain unhappy.,remain,verb.stative
+510,I still have noticeable scarring.,have,verb.stative
+511,I still have surgically induced hair loss.,have,verb.stative
+512,I still have surgically induced hair loss.,induce,verb.change
+513,"I wouldn't recommend this place last year, and I certainly wouldn't recommend them this year.",recommend,verb.communication
+514,"I wouldn't recommend this place last year, and I certainly wouldn't recommend them this year.",recommend,verb.communication
+515,home team - thanks 4 playin!!!,playing,verb.social
+516,This place offers a great manicure and pedicure.,offer,verb.stative
+517,My nails looked great for the better part of 2 weeks!,look,verb.perception
+518,"Also very friendly and the stylists are not in the ""been there/done that"" mood!",do,I_
+519,The people at Gulf Coast Siding were very easy and clear to work with.,work,B-V-v.social
+520,They walked me through all the steps involved in the the installation project so that there were no surprises.,walk,B-V.VPC.full-v.social
+521,They walked me through all the steps involved in the the installation project so that there were no surprises.,be,verb.stative
+522,I found them extremely professional and would highly recommend them.,find,verb.cognition
+523,I found them extremely professional and would highly recommend them.,recommend,I~-V-v.communication
+524,Expect either undercooked or mushy food and lackluster service.,expect,verb.cognition
+525,Expect either undercooked or mushy food and lackluster service.,undercook,verb.stative
+526,The investors put big bucks into the building but are clueless about what makes a good dining or bar experience.,put,verb.possession
+527,The investors put big bucks into the building but are clueless about what makes a good dining or bar experience.,make,verb.stative
+528,Even the least discriminating diner would know not to eat at Sprecher's.,know,verb.cognition
+529,Even the least discriminating diner would know not to eat at Sprecher's.,eat,verb.consumption
+530,"How do you run a cafe, with no refills on coffee-?",run,verb.social
+531,I worked with Sam Mones who took great care of me.,work,B-V-v.social
+532,I worked with Sam Mones who took great care of me.,take,B-V.IAV-v.social
+533,This is by far the best run dealership in Miami.,run,verb.social
+534,Highly recommended.,recommend,I~-V-v.communication
+535,"If you enjoy amazing things, you must go to World's Finest Donair.",enjoy,verb.emotion
+536,"If you enjoy amazing things, you must go to World's Finest Donair.",go,verb.motion
+537,I give this place 11/10.,give,verb.communication
+538,I was with verizon and I checked my service with tmobile and it was great so I thought I would try tmobile.,check,verb.cognition
+539,I was with verizon and I checked my service with tmobile and it was great so I thought I would try tmobile.,think,verb.cognition
+540,I was with verizon and I checked my service with tmobile and it was great so I thought I would try tmobile.,try,verb.social
+541,It turned out being very good quality tmobile service and I was happy with the new tmobile phone.,turn,B-V.VPC.full-v.stative
+542,The door is easy to use and it keeps the cold out during the winter.,use,verb.contact
+543,The door is easy to use and it keeps the cold out during the winter.,keep,verb.stative
+544,The sales staff and the installation staff were all easy to get along with.,get,B-V.IAV-v.social
+545,I highly recommend Garage Pros to my friends.,recommend,I~-V-v.communication
+546,"I appreciate the quick, good service and the reasonable prices and will definitely use American Pride Irrigation & Landscaping again.",appreciate,verb.emotion
+547,"I appreciate the quick, good service and the reasonable prices and will definitely use American Pride Irrigation & Landscaping again.",use,verb.social
+548,My fries weren't fully cooked last time I went there.,cook,verb.creation
+549,My fries weren't fully cooked last time I went there.,go,verb.motion
+550,Don't bother.,bother,verb.social
+551,It's impossible to understand how this place has survived.,understand,verb.cognition
+552,It's impossible to understand how this place has survived.,survive,verb.social
+553,Worst experience ever like a sardine can and the bartender downstairs is the rudest person I have ever met.,meet,verb.social
+554,DONt Go here,go,verb.motion
